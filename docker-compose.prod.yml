@@ -2,7 +2,7 @@ version: '3.9'
 
 services:
   docs:
-    image: ${REGISTRY:-ghcr.io}/your-org/aka-docs:${IMAGE_TAG:-latest}
+    image: ${REGISTRY:-ghcr.io}/akaBot2026/aka-docs:${IMAGE_TAG:-latest}
     restart: unless-stopped
     ports:
       - "80:80"

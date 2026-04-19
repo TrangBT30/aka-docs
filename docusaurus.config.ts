@@ -40,7 +40,7 @@ const config: Config = {
               banner: 'none',
             },
           },
-          editUrl: 'https://github.com/your-org/aka-docs/edit/main/',
+          editUrl: 'https://github.com/akaBot2026/aka-docs/edit/main/',
           showLastUpdateAuthor: false,
           showLastUpdateTime: false,
         },
@@ -120,7 +120,7 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://github.com/your-org/aka-docs',
+          href: 'https://github.com/akaBot2026/aka-docs',
           label: 'GitHub',
           position: 'right',
         },
