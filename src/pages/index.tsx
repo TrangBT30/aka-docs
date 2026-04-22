@@ -23,15 +23,15 @@ const WHATS_NEW = [
 ];
 
 const PRODUCTS = [
-  { href: '/docs/studio',    label: 'Akabot Studio',   icon: '🖥️' },
-  { href: '/docs/center',    label: 'Akabot Center',   icon: '🏢' },
-  { href: '/docs/agent',     label: 'Akabot Agent',    icon: '🤖' },
-  { href: '/docs/activities',label: 'Activities',      icon: '⚡' },
-  { href: '/docs/data',      label: 'Data Service',    icon: '🗄️' },
-  { href: '/docs/vision',    label: 'Akabot Vision',   icon: '👁️' },
-  { href: '/docs/insight',  label: 'Akabot Insight', icon: '📊' },
-  { href: '/docs/hub',  label: 'Akabot Hub', icon: '🌐' },
-  { href: '/docs/integration-service',  label: 'Integration Service', icon: '🔌' },
+  { href: '/docs/latest/studio/overview',               label: 'Akabot Studio',      icon: '🖥️' },
+  { href: '/docs/latest/center/overview',               label: 'Akabot Center',      icon: '🏢' },
+  { href: '/docs/latest/agent/overview',                label: 'Akabot Agent',       icon: '🤖' },
+  { href: '/docs/latest/activities/overview',           label: 'Activities',         icon: '⚡' },
+  { href: '/docs/latest/data/overview',                 label: 'Data Service',       icon: '🗄️' },
+  { href: '/docs/latest/vision/overview',               label: 'Akabot Vision',      icon: '👁️' },
+  { href: '/docs/latest/insight/overview',              label: 'Akabot Insight',     icon: '📊' },
+  { href: '/docs/latest/hub/overview',                  label: 'Akabot Hub',         icon: '🌐' },
+  { href: '/docs/latest/integration-service/overview',  label: 'Integration Service',icon: '🔌' },
 ];
 
 function LinkCard({ title, icon, items }: { title: string; icon: string; items: { href: string; title: string; desc: string }[] }) {
