@@ -29,7 +29,9 @@ const PRODUCTS = [
   { href: '/docs/activities',label: 'Activities',      icon: '⚡' },
   { href: '/docs/data',      label: 'Data Service',    icon: '🗄️' },
   { href: '/docs/vision',    label: 'Akabot Vision',   icon: '👁️' },
-  { href: '/docs/insights',  label: 'Akabot Insights', icon: '📊' },
+  { href: '/docs/insight',  label: 'Akabot Insight', icon: '📊' },
+  { href: '/docs/hub',  label: 'Akabot Hub', icon: '🌐' },
+  { href: '/docs/integration-service',  label: 'Integration Service', icon: '🔌' },
 ];
 
 function LinkCard({ title, icon, items }: { title: string; icon: string; items: { href: string; title: string; desc: string }[] }) {
