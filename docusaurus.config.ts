@@ -46,8 +46,8 @@ const config: Config = {
             },
           },
           editUrl: 'https://github.com/akaBot2026/aka-docs/edit/main/',
-          showLastUpdateAuthor: false,
-          showLastUpdateTime: false,
+          showLastUpdateAuthor: true,
+          showLastUpdateTime: true,
         },
         blog: false,
         theme: {
