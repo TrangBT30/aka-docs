@@ -14,7 +14,12 @@ const config: Config = {
   projectName: 'aka-docs',
 
   onBrokenLinks: 'warn',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -80,36 +85,6 @@ const config: Config = {
         srcDark: 'img/akabot-logo-dark.svg',
       },
       items: [
-        {
-          type: 'docSidebar',
-          sidebarId: 'userGuideSidebar',
-          position: 'left',
-          label: 'User Guide',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'installationSidebar',
-          position: 'left',
-          label: 'Installation',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'apiReferenceSidebar',
-          position: 'left',
-          label: 'API Reference',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'sdkSidebar',
-          position: 'left',
-          label: 'SDK / Dev',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'adminSidebar',
-          position: 'left',
-          label: 'Admin & Ops',
-        },
         {
           type: 'docsVersionDropdown',
           position: 'right',

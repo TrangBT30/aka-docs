@@ -37,6 +37,20 @@
   font-size: 1.1rem;
 }
 
+/* ── Search bar: responsive width ── */
+.navbar__search-input {
+  width: clamp(160px, 28vw, 420px);
+  height: 38px;
+  font-size: 14px;
+  border-radius: 8px;
+}
+
+@media (max-width: 996px) {
+  .navbar__search-input {
+    width: clamp(120px, 22vw, 260px);
+  }
+}
+
 .docusaurus-highlight-code-line {
   background-color: var(--docusaurus-highlighted-code-line-bg);
   display: block;
