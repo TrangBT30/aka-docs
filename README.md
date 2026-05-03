@@ -40,6 +40,13 @@ i18n/vi/                 ← Vietnamese mirror of docs/
     <package>/
       latest/
       <version>/
+
+static/                  ← shared media (see "Media files" below)
+  img/
+  pdf/
+  video/
+
+scripts/                 ← maintainer tools (validate / clean media)
 ```
 
 ### Modules
@@ -96,6 +103,77 @@ The site's package list and search index pick it up automatically.
 Frozen versions (`2.0/`, `1.5/`, etc.) should only receive **typo fixes** and
 **factual corrections**. Structural changes, new pages, and reorganisations go
 in `latest/` and become part of the next snapshot.
+
+## Media files (images, PDFs, videos)
+
+All shared media lives under **`static/`** at the repo root, organized by type:
+
+```text
+static/
+  img/        screenshots, diagrams, illustrations
+  pdf/        downloadable documents
+  video/      short clips (mp4 / webm preferred over GIF)
+```
+
+Markdown references media with an **absolute path** rooted at `static/`:
+
+```markdown
+![Setup screenshot](/img/setup-windows.png)
+[API reference (PDF)](/pdf/api-reference.pdf)
+<video controls src="/video/walkthrough.mp4"></video>
+```
+
+> The leading `/` is required. The site serves everything under `static/` at
+> the URL root, so `static/img/foo.png` becomes `/img/foo.png` in markdown.
+> Don't use relative paths like `./foo.png` — the validator will reject them.
+
+### Filename and size rules
+
+- **Lowercase**, **hyphenated**, no spaces or underscores: `dashboard-overview.png`, not `Dashboard Overview.png`
+- Descriptive names — `agent-install-step3.png` beats `screenshot1.png`
+- Maximum size: **5 MB per file**
+- Optimize before commit:
+  - Screenshots → PNG (use TinyPNG or `pngquant`)
+  - Photos → JPG (quality 80–85)
+  - Diagrams → SVG (small file, crisp at any zoom)
+  - Animations → MP4/WebM (much smaller than GIF)
+- Don't commit raw editing files (`.psd`, `.fig`, `.xd`, `.ai`)
+- Files > 5 MB → host externally and link out
+
+### Reusing media
+
+A single file in `static/` can be referenced by any number of markdown pages
+across modules, versions, and locales. **Don't duplicate** the same image into
+multiple folders — reference the one canonical copy.
+
+### Vietnamese translations
+
+If a screenshot must show Vietnamese UI specifically, name it accordingly
+and reference it from the Vietnamese page only:
+
+```text
+static/img/dashboard-en.png    ← used by docs/center/latest/...
+static/img/dashboard-vi.png    ← used by i18n/vi/center/latest/...
+```
+
+Most media (diagrams, language-neutral screenshots) can be shared between
+locales.
+
+### Maintainer tools (`scripts/`)
+
+Two helpers run as plain Node scripts (Node 20+, no install needed):
+
+```bash
+# Validate before merging a PR — checks names, sizes, and broken refs.
+node scripts/validate-media.mjs
+
+# Find unused files in static/ and optionally delete them.
+node scripts/clean-media.mjs              # interactive
+node scripts/clean-media.mjs --dry-run    # report only
+```
+
+Maintainers should run **`validate-media.mjs`** on any PR that adds or moves
+media. CI can be wired up to run it automatically — ask the maintainer team.
 
 ## Markdown frontmatter
 
