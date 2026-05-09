@@ -6,7 +6,7 @@ sidebar_position: 11
 description: "Get Mail Message activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Mail Message - akaBot Docs
+# Get Mail Message
 
 RCA.Activities.GSuite.GetMailMessages
 
@@ -43,9 +43,3 @@ This activity allows you to search for and get emails from a specified Gmail acc
 **Output**
 
 * **Emails (GmailMessages)** - The search results. This property supports GmailMessages[] array variables
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

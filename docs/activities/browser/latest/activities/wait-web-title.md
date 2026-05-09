@@ -6,7 +6,7 @@ sidebar_position: 30
 description: "Wait Page Title activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [30]Wait Page Title - akaBot Docs
+# Wait Page Title
 
 RCA.Activities.Browser.WaitWebTitle
 
@@ -59,9 +59,3 @@ value.
 * **Result (Boolean)** - A Boolean variable has two possible values: True or False  
   **・True** - The page title meets the requirement.  
   **・False** -The page does not meet the requirement.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

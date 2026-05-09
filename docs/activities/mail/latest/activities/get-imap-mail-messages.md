@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Get IMAP Mail Messages activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [06]Get IMAP Mail Messages - akaBot Docs
+# Get IMAP Mail Messages
 
 RCA.Activities.Mail.GetIMAPMailMessages
 
@@ -52,8 +52,3 @@ This activity allows you to retrieve an IMAP email message from a specified serv
 **Output**
 
 * **Messages (`List<MailMessage>`)** - The retrieve message of mail collection.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

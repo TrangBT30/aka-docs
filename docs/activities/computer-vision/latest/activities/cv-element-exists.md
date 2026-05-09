@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "CV Element Exists activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# CV Element Exists - akaBot Docs
+# CV Element Exists
 
 RCA.Activities.ComputerVision.CVElementExists
 
@@ -52,9 +52,3 @@ Searches for a specified UI element on the screen in the foreground by using the
 
 * **InputRegion (Rectangle)**- Receives the target of another CV activity stored in a *Rectangle*variable, using it as a target for this activity. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier. If a variable is set to this field, the current target and anchor elements of the activity are disabled. This field supports only *Rectangle*variables.
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

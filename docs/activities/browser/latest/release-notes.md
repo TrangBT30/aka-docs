@@ -2,11 +2,11 @@
 id: release-notes
 title: "Release Notes"
 sidebar_label: "Release Notes"
-sidebar_position: 1
+sidebar_position: 2
 description: "Release Notes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Release Notes - akaBot Docs
+# Release Notes
 
 ### **Browser v2.3.0.5**
 
@@ -82,12 +82,3 @@ Release notes
 - In *Studio > Package Manager > Settings > User package sources,*add this repository: https://gitlab.com/api/v4/projects/75840319/packages/nuget/index.json
 
 - Search and install this activity from the list.
-
-Table of Content
-
-* + [Browser v2.3.0.5](#HBrowserv2.3.0.5)
-  + [Browser v2.3.0.4](#HBrowserv2.3.0.4)
-  + [Browser v2.3.0.2](#HBrowserv2.3.0.2)
-  + [Browser v2.3.0.1](#HBrowserv2.3.0.1)
-  + [Browser v2.2.0.0](#HBrowserv2.2.0.0)
-  + [How to install activity?](#HHowtoinstallactivity3F)

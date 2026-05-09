@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "Select Item activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Select Item - akaBot Docs
+# Select Item
 
 RCA.Activities.Java.SelectItem
 
@@ -46,8 +46,3 @@ Text
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: Select Java Item
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

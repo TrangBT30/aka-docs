@@ -2,11 +2,11 @@
 id: release-notes
 title: "Release Notes"
 sidebar_label: "Release Notes"
-sidebar_position: 1
+sidebar_position: 2
 description: "Release Notes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Release Notes - akaBot Docs
+# Release Notes
 
 ## **RCA.Activities.Excel Version 2.1.1.0**
 
@@ -22,8 +22,3 @@ displayed_sidebar: activitiesSidebar
 * [ExcelCopySheet] Screen hangs when typing Destination File Path does not have permission to access.
 * [ExcelSetBorder] Wrong behavior when set property Range = nothing.
 * [ExcelReadCell] Data is not kept when [Preserve Format] is checked and [Cell] is a fixed address.
-
-Table of Content
-
-* [RCA.Activities.Excel Version 2.1.1.0](#HRCA.Activities.ExcelVersion2.1.1.0)
-  + [Bugs fixed](#HBugsfixed)

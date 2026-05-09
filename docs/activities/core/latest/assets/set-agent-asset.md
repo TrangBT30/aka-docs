@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Set Agent Asset activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Set Agent Asset - akaBot Docs
+# Set Agent Asset
 
 RCA.Core.Activities.SetAgentAsset
 
@@ -39,8 +39,3 @@ This activity allows you to update a specified Asset value that is already avail
 **Output**
 
 * **Set Success (Boolean)**– This property specifies the result of the action. Only have two possible values: True or False. Return True if the Asset value has been successfully updated; Return False if the Asset value has not been updated successfully.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

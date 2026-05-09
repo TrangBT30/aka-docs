@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "CV Table Extract activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# CV Table Extract - akaBot Docs
+# CV Table Extract
 
 RCA.Activities.ComputerVision.CVTableExtract
 
@@ -51,9 +51,3 @@ Extracts a table that is visible on the screen and stores it into a DataTable va
 **Reusable Region**
 
 * **OutputRegion (Rectangle)**- Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

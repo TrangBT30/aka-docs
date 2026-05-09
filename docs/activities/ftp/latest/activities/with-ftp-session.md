@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "With FTP Session activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# With FTP Session - akaBot Docs
+# With FTP Session
 
 RCA.Activities.FTP.WithFTPSession
 
@@ -60,9 +60,3 @@ This activity provides a container which connects to an FTP server and performs 
   E.g: “ftp.myhost.com” or “12.34.56.78”
 * **Port** - The port of the FTP server you want to connect to  
   E.g : 21
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

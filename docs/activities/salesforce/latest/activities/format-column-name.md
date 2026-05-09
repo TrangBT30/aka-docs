@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "Format Column Names activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Format Column Names - akaBot Docs
+# Format Column Names
 
 RCA.Activities.Salesforce.FormatColumnNames
 

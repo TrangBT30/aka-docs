@@ -6,7 +6,7 @@ sidebar_position: 15
 description: "Open Browser (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Open Browser (NB) - akaBot Docs
+# Open Browser (NB)
 
 RCA.Activities.NativeBrowser.OpenBrowser
 
@@ -53,9 +53,3 @@ The Open Browser (NB) activity allows you to navigate to a specified URL by laun
 **Output**
 
 * **Output Browser (NativeBrowser)** - Output of the activity with type = ‘Browser’. Stores all the information regarding your browser session.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

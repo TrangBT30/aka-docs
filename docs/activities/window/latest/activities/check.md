@@ -6,7 +6,7 @@ sidebar_position: 16
 description: "Check/Uncheck activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [16]Check/Uncheck - akaBot Docs
+# Check/Uncheck
 
 RCA.Activities.Windows.Check
 
@@ -59,9 +59,3 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

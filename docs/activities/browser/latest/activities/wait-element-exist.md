@@ -6,7 +6,7 @@ sidebar_position: 25
 description: "Wait Element Exist activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [25]Wait Element Exist - akaBot Docs
+# Wait Element Exist
 
 RCA.Activities.Browser.WaitElementExist
 
@@ -58,9 +58,3 @@ The Wait Element Exist activity waits for a selected element to appear in a webp
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

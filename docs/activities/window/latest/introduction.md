@@ -2,11 +2,11 @@
 id: introduction
 title: "Window"
 sidebar_label: "Window"
-sidebar_position: 2
+sidebar_position: 1
 description: "Window activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Window - akaBot Docs
+# Window
 
 The **Windows activities** package contains all the **basic activities** used for creating **window application** automation projects.
 
@@ -33,8 +33,3 @@ After clicking the **Select**button at the end of **Selector Editor** wizard,t
 Here is an example result after Select notepad field:
 
 ![image-20220509102352-5.png](/img/866381_image-20220509102352-5.png)
-
-See also:
-
-* [Release Notes](/bin/view/Activities/Window/%5B1%5D%20Release%20Notes/)
-* [Activities](/bin/view/Activities/Window/Activities/)

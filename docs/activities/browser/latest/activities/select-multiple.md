@@ -6,7 +6,7 @@ sidebar_position: 22
 description: "Select Multiple Items activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [22]Select Multiple Items - akaBot Docs
+# Select Multiple Items
 
 RCA.Activities.Browser.SelectMultiple
 
@@ -63,9 +63,3 @@ The Select Multiple Items activity allows you to select many items from a combo 
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "Set Bookmark Content activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Set Bookmark Content - akaBot Docs
+# Set Bookmark Content
 
 RCA.Activities.Word.SetBookmarkContent
 
@@ -44,8 +44,3 @@ This activity can only be used within a **Word Application Scope** activity.
 * **Public (Checkbox)**: If selected, the activity data will be logged. Consider data security requirements before using this property.
 * **Display Name (String)**: The name of this activity. You can edit it to better organize and structure your workflow.  
   Example: `Set Bookmark Content`
-
-## **Table of Contents**
-
-* [Description](#description)
-* [Properties](#properties)

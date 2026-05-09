@@ -6,7 +6,7 @@ sidebar_position: 17
 description: "Click activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [17]Click - akaBot Docs
+# Click
 
 RCA.Activities.Windows.Click
 
@@ -64,9 +64,3 @@ The Click activity allows you to click a specified UI element.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

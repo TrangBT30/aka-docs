@@ -6,7 +6,7 @@ sidebar_position: 5
 description: "Element Exist activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Element Exist - akaBot Docs
+# Element Exist
 
 RCA.Activities.IE.ElementExists
 
@@ -49,10 +49,4 @@ The Element Exist allows you to confirm whether an element exists.
 * **Scroll Height (Int32)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll vertically. A negative value is to scroll upwards, a positive value is to scroll downwards.  
   Ex: 20
 * **Scroll IntoView (Checkbox)**- If selected, the screen will automatically scroll to the desired element on the screen.
-* **Scroll Width (Int32)** - Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
-  Ex: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
+* **Scroll Width (Int32)** - Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards. Ex: 20

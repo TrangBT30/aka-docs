@@ -6,7 +6,7 @@ sidebar_position: 27
 description: "Wait Element Vanishes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [27]Wait Element Vanishes - akaBot Docs
+# Wait Element Vanishes
 
 RCA.Activities.Browser.WaitElementVanish
 
@@ -60,9 +60,3 @@ The Wait Element Vanishes activity waits for a selected element to disappear fro
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "File Exists activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# File Exists - akaBot Docs
+# File Exists
 
 RCA.Activities.FTP.FileExists
 
@@ -40,8 +40,3 @@ RCA.Activities.FTP.FileExists
 **Output**
 
 * **Exist (Boolean)** - Variable contains the checking result (yes/no)
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

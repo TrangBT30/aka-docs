@@ -6,7 +6,7 @@ sidebar_position: 13
 description: "Scroll activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [13]Scroll - akaBot Docs
+# Scroll
 
 RCA.Activities.Windows.Scroll
 
@@ -73,9 +73,3 @@ The scroll activity allows you to scroll up & down
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

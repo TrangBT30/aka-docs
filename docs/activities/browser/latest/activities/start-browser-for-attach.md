@@ -6,15 +6,9 @@ sidebar_position: 2
 description: "Start Browser For Attach activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [02]Start Browser For Attach - akaBot Docs
+# Start Browser For Attach
 
 RCA.Activities.Browser.StartBrowserForAttach
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)
 
 ## **Description**
 

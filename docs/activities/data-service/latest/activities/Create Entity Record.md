@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Create Entity Record activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [2] Create Entity Record - akaBot Docs
+# Create Entity Record
 
 RCA.Activities.DataService.CreateEntityRecord
 
@@ -36,9 +36,3 @@ This activity allow to create a new record for the selected Entity in Data Servi
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
 ![image-20230630131836-2.png](/img/199503_image-20230630131836-2.png)
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

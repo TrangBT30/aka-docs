@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Browser Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [04]Browser Scope - akaBot Docs
+# Browser Scope
 
 RCA.Activities.Browser.BrowserScrope
 
@@ -43,9 +43,3 @@ The Browser Scope activity creates a container that lets you attach an already o
 **Output**
 
 * **Output Browser (String)** - Output of the activity with type = ‘Browser’. Not allow whitespace in the output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

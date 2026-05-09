@@ -6,7 +6,7 @@ sidebar_position: 29
 description: "Terminate Process activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [29]Terminate Process - akaBot Docs
+# Terminate Process
 
 RCA.Activities.Windows.TerminateProcess
 
@@ -37,8 +37,3 @@ The Terminate Process activity allows you to cause a process to exit.
 * **Process (Process)**- A Process type object describing the process to be closed.
 * **Process Name (String)**\* - Name of the process.  
   E.g: Invoke
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

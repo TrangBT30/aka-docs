@@ -2,11 +2,11 @@
 id: introduction
 title: "Mail Activities"
 sidebar_label: "Mail Activities"
-sidebar_position: 2
+sidebar_position: 1
 description: "Mail Activities activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Mail Activities - akaBot Docs
+# Mail Activities
 
 The Mail Activities Package is designed to facilitate the automation of mail-related tasks.
 
@@ -17,8 +17,3 @@ Activities such as [Save Attachments](/bin/view/Activities/Mail%20Activities/Ac
 **Note:**
 
 * These activities can automate with the **Outlook Desktop application**, **Gmail accounts** and **Outlook 365 online**.
-
-See also:
-
-* [Release Notes](/bin/view/Activities/Mail%20Activities/%5B1%5D%20Release%20Notes/)
-* [Activities](/bin/view/Activities/Mail%20Activities/Activities/)

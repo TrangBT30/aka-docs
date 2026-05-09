@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Delete File activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Delete File - akaBot Docs
+# Delete File
 
 RCA.Activities.GSuite.DeleteFile
 
@@ -33,9 +33,3 @@ This activity allows you to delete a file located on Google Drive.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: [123125436] Delete File
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

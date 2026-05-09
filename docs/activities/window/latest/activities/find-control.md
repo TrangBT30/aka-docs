@@ -6,7 +6,7 @@ sidebar_position: 19
 description: "Find Control activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [19]Find Control - akaBot Docs
+# Find Control
 
 RCA.Activities.Windows.FindControl
 
@@ -62,9 +62,3 @@ Finds a Window element and stores it as an AutomationElement variable.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

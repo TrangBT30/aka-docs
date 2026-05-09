@@ -6,7 +6,7 @@ sidebar_position: 19
 description: "Select Item activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [19]Select Item - akaBot Docs
+# Select Item
 
 RCA.Activities.Browser.SelectItem
 
@@ -64,9 +64,3 @@ The Select Item activity allows you to select an item from a combo box or list b
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

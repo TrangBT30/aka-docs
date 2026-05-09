@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Go Back activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [06]Go Back - akaBot Docs
+# Go Back
 
 RCA.Activities.Browser.GoBack
 
@@ -31,8 +31,3 @@ The Go Back activity goes back one URL in the history list of the current browse
 * **Display (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: [2446667] Go Back
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is unchecked.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)

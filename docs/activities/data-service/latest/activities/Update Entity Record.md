@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Update Entity Record activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [4] Update Entity Record - akaBot Docs
+# Update Entity Record
 
 RCA.Activities.DataService.UpdateEntityRecord
 
@@ -37,9 +37,3 @@ This activity allow to update an existing record for the selected Entity in Data
   + Output Record: The record created from the Data Service, stored in an Entity type object. This field only supports objects of types imported from Data Service and must be of the same type as the selected Entity Type.
 
 ![image-20230630131917-4.png](/img/689cfb_image-20230630131917-4.png)
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

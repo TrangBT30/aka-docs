@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Directory Exists activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Directory Exists - akaBot Docs
+# Directory Exists
 
 RCA.Activities.FTP.DirectoryExists
 
@@ -40,8 +40,3 @@ This activity allows you to check whether the directory has been existed in FTP 
 **Output**
 
 * **Exist (Boolean)** - Variable contains the checking result (yes/no)
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

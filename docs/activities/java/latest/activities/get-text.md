@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Get Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Text - akaBot Docs
+# Get Text
 
 RCA.Activities.Java.GetText
 
@@ -48,8 +48,3 @@ Text
 **Output**
 
 * **Output Text (String)**- The element you get from the Java file. Output to a String variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

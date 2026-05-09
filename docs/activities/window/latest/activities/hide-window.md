@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "Hide Window activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [09]Hide Window - akaBot Docs
+# Hide Window
 
 RCA.Activities.Windows.HideWindow
 
@@ -58,9 +58,3 @@ The Hide Window activity allows you to make a window completely invisible.
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

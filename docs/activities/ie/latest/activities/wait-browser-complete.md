@@ -6,7 +6,7 @@ sidebar_position: 22
 description: "Wait Browser Complete activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Wait Browser Complete - akaBot Docs
+# Wait Browser Complete
 
 RCA.Activities.IE.WaitBrowserComplete
 
@@ -39,8 +39,3 @@ To wait for the browser to complete loading a page.
 **Output**
 
 * **Wait Success (Boolean)**- A Boolean type variable indicating whether the activity is succeeded or not.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

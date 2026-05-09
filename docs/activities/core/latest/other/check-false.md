@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Check False activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Check False - akaBot Docs
+# Check False
 
 RCA.Activities.Core.CheckFalse
 

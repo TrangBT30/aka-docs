@@ -6,7 +6,7 @@ sidebar_position: 7
 description: "Get Element (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Element (NB) - akaBot Docs
+# Get Element (NB)
 
 RCA.Activities.NativeBrowser.GetElement
 
@@ -47,9 +47,3 @@ Waits for the specified UI element to appear on the screen (to be in the foregro
 **Output**
 
 * **Element (NMElement)** - The output UI element returned from the activity.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

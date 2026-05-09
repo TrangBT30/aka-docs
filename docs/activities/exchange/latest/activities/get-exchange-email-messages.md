@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Get Exchange Email Messages activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Exchange Email Messages - akaBot Docs
+# Get Exchange Email Messages
 
 RCA.Activities.Mail.GetExchangeEmailMessage
 
@@ -65,8 +65,3 @@ Please refer to these link to know more about EWS
 **Output**
 
 * **Messages (`List<MailMessage>`)** - The retrieved messages as a collection of MailMessage objects.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

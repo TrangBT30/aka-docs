@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Block User Input activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Block User Input - akaBot Docs
+# Block User Input
 
 RCA.Activities.Core.BlockUserInput
 

@@ -6,7 +6,7 @@ sidebar_position: 7
 description: "Show Window activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [07]Show Window - akaBot Docs
+# Show Window
 
 RCA.Activities.Windows.ShowWindow
 
@@ -58,9 +58,3 @@ The Show Window activity allows you to bring to the front a specified window.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable** **(Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 12
 description: "Send Hot Keys activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [12]Send Hot Keys - akaBot Docs
+# Send Hot Keys
 
 RCA.Activities.Browser.SendHotKeys
 
@@ -64,9 +64,3 @@ The Send Hot Keys activity allows you to send a keyboard shortcut to a browser e
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

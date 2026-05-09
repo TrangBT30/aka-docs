@@ -6,7 +6,7 @@ sidebar_position: 15
 description: "Update File Permission activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Update File Permission - akaBot Docs
+# Update File Permission
 
 RCA.Activities.GSuite.UpdateFilePermission
 
@@ -50,9 +50,3 @@ This activity allows you to update the permission of a specified file.
 **Output**
 
 * **Result (String)** - The updated permission. This property supports Google Permission variables
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

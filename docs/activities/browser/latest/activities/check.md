@@ -6,7 +6,7 @@ sidebar_position: 18
 description: "Check/Uncheck activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [18]Check/Uncheck - akaBot Docs
+# Check/Uncheck
 
 RCA.Activities.Browser.Check
 
@@ -63,9 +63,3 @@ The Check/Uncheck activity allows you to check or uncheck a Checkbox.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 24
 description: "Wait Element Vanishes (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Wait Element Vanishes (NB) - akaBot Docs
+# Wait Element Vanishes (NB)
 
 RCA.Activities.NativeBrowser.WaitElementVanish
 

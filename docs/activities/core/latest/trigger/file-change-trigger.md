@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "File Change Trigger activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [01]File Change Trigger - akaBot Docs
+# File Change Trigger
 
 System.Activities.Core.FileChangeTrigger
 
@@ -42,8 +42,3 @@ This activity allows you to get the change information of a file. This can only 
 **Options**
 
 * **Include Subdirectories (Checkbox)** - This is used whether you want to include subdirectories of the specified location.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

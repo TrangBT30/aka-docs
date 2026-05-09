@@ -6,7 +6,7 @@ sidebar_position: 10
 description: "Get Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [10]Get Text - akaBot Docs
+# Get Text
 
 RCA.Activities.Browser.GetText
 
@@ -58,9 +58,3 @@ The Get Text activity extracts on a webpage and saves it in a String variable.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

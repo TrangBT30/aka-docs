@@ -6,7 +6,7 @@ sidebar_position: 18
 description: "Select Multiple Items activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Select Multiple Items - akaBot Docs
+# Select Multiple Items
 
 RCA.Activities.IE.SelectMultiple
 
@@ -53,8 +53,3 @@ The Select Multiple Items activity allows you to select many items from a combo 
 * **Scroll IntoView (Checkbox)**- If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Int32)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   **Ex**: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

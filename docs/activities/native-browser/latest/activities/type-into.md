@@ -6,7 +6,7 @@ sidebar_position: 23
 description: "Type Into (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Type Into (NB) - akaBot Docs
+# Type Into (NB)
 
 RCA.Activities.NativeBrowser.TypeInto
 

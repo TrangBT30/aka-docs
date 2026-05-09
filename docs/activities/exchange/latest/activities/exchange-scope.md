@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Exchange Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Exchange Scope - akaBot Docs
+# Exchange Scope
 
 RCA.Activities.Mail.ExchangeScope
 
@@ -54,8 +54,3 @@ Please refer to these link to know more about EWS
 **Output**
 
 * **Exchange Service (ExchangeService)** – The ExchangeServer object that contains the connection to the server.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

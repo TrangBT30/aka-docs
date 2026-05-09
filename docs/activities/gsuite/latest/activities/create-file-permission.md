@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Create File Permission activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Create File Permission - akaBot Docs
+# Create File Permission
 
 RCA.Activities.GSuite.CreateFilePermission
 
@@ -56,9 +56,3 @@ This activity allows you to create a permission for the specified file in Google
 **Output**
 
 * **Result (String)** - The granted permissions. This property supports Google Permission variables.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

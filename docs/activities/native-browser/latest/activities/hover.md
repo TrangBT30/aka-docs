@@ -6,7 +6,7 @@ sidebar_position: 12
 description: "Hover (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Hover (NB) - akaBot Docs
+# Hover (NB)
 
 RCA.Activities.NativeBrowser.Hover
 
@@ -47,9 +47,3 @@ The Hover activity will move the mouse pointer to a specified element without cl
 **Options**
 
 * **Similate Hover (Checkbox)** - If selected, it simulates the hover by using the technology of the target application. This input method is the fastest of the three and works in the background. If not selected, the hover action will be performed using the hardware driver. This method is the slowest, it cannot work in the background. By default, this check box is selected.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

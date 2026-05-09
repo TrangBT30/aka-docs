@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "Get POP3 Mail Messages activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [09]Get POP3 Mail Messages - akaBot Docs
+# Get POP3 Mail Messages
 
 RCA.Activities.Mail.GetPOP3MailMessages
 
@@ -48,8 +48,3 @@ This activity allows you to retrieve a POP3 email from a specified server.
 **Output**
 
 * **Messages (`List<MailMessage>`)** - The retrieved messages as a collection of MailMessage objects.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

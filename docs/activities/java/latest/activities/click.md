@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Click activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Click - akaBot Docs
+# Click
 
 RCA.Activities.Java.Click
 
@@ -47,8 +47,3 @@ Text
 
 * **Animated Mouse (Checkbox)** - If you choose this, you can see animated mouse appear on the screen.
 * **Virtual Click (Checkbox)** - If you choose this, you can see the click when akaBot executes the action.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

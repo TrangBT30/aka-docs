@@ -6,7 +6,7 @@ sidebar_position: 31
 description: "Keyboard Type activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [31]Keyboard Type - akaBot Docs
+# Keyboard Type
 
 RCA.Activities.Windows.KeyboardType
 
@@ -40,8 +40,3 @@ This activity allows you type text with special keyboard keys by selecting in dr
 **Options**
 
 * **Delay Between Keys (Int32)** - The amount of time (in milliseconds) to wait between each keystroke. This delay may be required inside each keystroke.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "画像を追加 activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# 画像を追加 - akaBot Docs
+# 画像を追加
 
 RCA.Activities.Word.AddImage
 

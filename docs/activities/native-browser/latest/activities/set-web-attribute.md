@@ -6,7 +6,7 @@ sidebar_position: 20
 description: "Set Web Attribute (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Set Web Attribute (NB) - akaBot Docs
+# Set Web Attribute (NB)
 
 RCA.Activities.NativeBrowser.SetWebAttribute
 

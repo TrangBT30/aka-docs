@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "Type Into activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Type Into - akaBot Docs
+# Type Into
 
 RCA.Activities.Java.TypeInto
 
@@ -62,8 +62,3 @@ Text
 **Output**
 
 * **Success (Boolean)**- Indicates whether all the actions have succeeded or not.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

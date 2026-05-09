@@ -6,7 +6,7 @@ sidebar_position: 17
 description: "Refresh (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Refresh (NB) - akaBot Docs
+# Refresh (NB)
 
 RCA.Activities.NativeBrowser.Refresh
 
@@ -32,8 +32,3 @@ The Refresh reloads the tab that is currently displayed in a browser.
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it. Default is uncheck.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

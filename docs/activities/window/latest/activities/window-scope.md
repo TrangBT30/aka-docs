@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Window Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [02]Window Scope - akaBot Docs
+# Window Scope
 
 RCA.Activities.Windows.WindowScope
 
@@ -48,9 +48,3 @@ The Window Scope activity allows you to attach to an already opened window and e
 **Output**
 
 * **Output Window (WindowApp)**- Output of the activity with type = ‘WindowApp’. Output variable can be used in another Window Scope or Use Window property of other Window Activities. Not allow whitespace in the output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

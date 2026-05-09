@@ -6,7 +6,7 @@ sidebar_position: 16
 description: "Refresh activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Refresh - akaBot Docs
+# Refresh
 
 RCA.Activities.IE.Refresh
 
@@ -29,8 +29,3 @@ The Refresh reloads the tab that is currently displayed in a browser.
 * **Public (Checkbox)**- Check if you want to publicize it. Remember to consider data security requirements before using it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Ex: [22435345] Refresh
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

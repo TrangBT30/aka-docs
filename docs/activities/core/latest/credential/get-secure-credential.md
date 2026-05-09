@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Get Secure Credential activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [04]Get Secure Credential - akaBot Docs
+# Get Secure Credential
 
 RCA.Activities.Core.GetSecureCredential
 
@@ -41,8 +41,3 @@ The Get Secure Credential activity allows you to retrieve the credentials from a
 * **Password (String)** - Output password that you can declare the variables with type = ‘String’ for further uses.
 * **Username (String)** - Output username that you can declare the variables with type = ‘String’ for further uses.
 * **Result (Boolean)** - Result of the activity as a Boolean variable: True or False.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

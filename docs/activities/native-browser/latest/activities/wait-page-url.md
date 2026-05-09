@@ -6,7 +6,7 @@ sidebar_position: 27
 description: "Wait Page URL (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Wait Page URL (NB) - akaBot Docs
+# Wait Page URL (NB)
 
 RCA.Activities.NativeBrowser.WaitPageUrl
 

@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Get Agent Credential activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Agent Credential - akaBot Docs
+# Get Agent Credential
 
 RCA.Core.Activities.GetAgentCredential
 
@@ -41,8 +41,3 @@ This activity allows you to get a specified akaBot Center credential by using a 
 
 * **Password (SecureString)** – The secure password of the retrieved credential.
 * **Username (String)** - The username of the retrieved credential.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

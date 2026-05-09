@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Element Exists activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Element Exists - akaBot Docs
+# Element Exists
 
 RCA.Activities.Java.ElementExists
 
@@ -49,8 +49,3 @@ Text
 **Output**
 
 * **Exist (Boolean)** - Check if the element exists in the file. Boolean supported only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

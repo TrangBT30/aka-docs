@@ -6,7 +6,7 @@ sidebar_position: 21
 description: "Hover activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [21]Hover - akaBot Docs
+# Hover
 
 RCA.Activities.Browser.Hover
 
@@ -54,9 +54,3 @@ The Hover activity will move the mouse pointer to a specified element without cl
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 7
 description: "Java Gui Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Java Gui Scope - akaBot Docs
+# Java Gui Scope
 
 RCA.Activities.Java.JavaGuiScope
 
@@ -43,8 +43,3 @@ Text
 **Output**
 
 * **Java Access Bridge (JavaElement)** : Object allow view and manipulate information about GUI elements in a Java application. Output in JavaElement variable only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

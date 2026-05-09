@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Attach Browser (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Attach Browser (NB) - akaBot Docs
+# Attach Browser (NB)
 
 RCA.Activities.NativeBrowser.AttachBrowser
 
@@ -51,9 +51,3 @@ A container that enables you to attach to an already opened native browser and p
 **Output**
 
 * **Output Browser (NativeBrowser)** - Output variable of the activity with type = ‘Browser’.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

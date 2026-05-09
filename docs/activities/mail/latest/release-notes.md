@@ -2,11 +2,11 @@
 id: release-notes
 title: "Release Notes"
 sidebar_label: "Release Notes"
-sidebar_position: 1
+sidebar_position: 2
 description: "Release Notes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Release Notes - akaBot Docs
+# Release Notes
 
 ## **RCA.Activities.Mail Version 2.1.1.0**
 
@@ -19,8 +19,3 @@ displayed_sidebar: activitiesSidebar
 * Fixed an issue in **Send SMTP Mail Message** activity which does not save email in Sent folder of Sender when Subject and Body are empty and MailMessage refers to some mail message.
 * Fixed an issue in **Send SMTP Mail Message** activity which does not send email to expected receiver when Subject or Body is not empty and MailMessage refers to some mail message.
 * Fixed an issue in **Get IMAP Mail Messages**activity which activity always returns value = 0 email.
-
-Table of Content
-
-* [RCA.Activities.Mail Version 2.1.1.0](#HRCA.Activities.MailVersion2.1.1.0)
-  + [Bug Fixes](#HBugFixes)

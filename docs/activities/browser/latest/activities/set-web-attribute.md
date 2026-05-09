@@ -6,7 +6,7 @@ sidebar_position: 24
 description: "Set Web Attribute activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [24]Set Web Attribute - akaBot Docs
+# Set Web Attribute
 
 RCA.Activities.Browser.SetWebAttribute
 
@@ -56,9 +56,3 @@ The Set Web Attribute sets the value for an attribute of a web element.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

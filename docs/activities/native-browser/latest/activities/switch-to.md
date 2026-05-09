@@ -6,7 +6,7 @@ sidebar_position: 21
 description: "Switch To (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Switch To (NB) - akaBot Docs
+# Switch To (NB)
 
 RCA.Activities.NativeBrowser.SwitchTo
 

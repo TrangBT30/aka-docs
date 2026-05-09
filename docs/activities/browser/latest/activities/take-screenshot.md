@@ -6,7 +6,7 @@ sidebar_position: 32
 description: "Take Screenshot activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [32]Take Screenshot - akaBot Docs
+# Take Screenshot
 
 RCA.Activities.Browser.TakeScreenshot
 
@@ -58,9 +58,3 @@ The Take Screenshot takes screenshot of a UI Elements within a browser.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

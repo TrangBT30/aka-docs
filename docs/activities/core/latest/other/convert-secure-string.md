@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Convert Secure String activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Convert Secure String - akaBot Docs
+# Convert Secure String
 
 RCA.Activities.Core.ConvertSecureString
 

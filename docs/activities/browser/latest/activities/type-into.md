@@ -6,7 +6,7 @@ sidebar_position: 11
 description: "Type Into activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [11]Type Into - akaBot Docs
+# Type Into
 
 RCA.Activities.Browser.TypeInto
 
@@ -69,9 +69,3 @@ The Type Into activity allows you to type texts into any text field within the w
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

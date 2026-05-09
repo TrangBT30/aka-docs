@@ -6,7 +6,7 @@ sidebar_position: 13
 description: "Get Web Attribute activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [13]Get Web Attribute - akaBot Docs
+# Get Web Attribute
 
 RCA.Activities.Browser.GetWebAttribute
 
@@ -60,9 +60,3 @@ The Get Web Attribute activity allows you to get the value of an attribute that 
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

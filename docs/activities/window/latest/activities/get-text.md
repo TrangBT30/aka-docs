@@ -6,7 +6,7 @@ sidebar_position: 22
 description: "Get Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [22]Get Text - akaBot Docs
+# Get Text
 
 RCA.Activities.Windows.GetText
 
@@ -61,9 +61,3 @@ This activity allows you to get text from Windows application.
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

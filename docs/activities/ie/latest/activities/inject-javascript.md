@@ -6,7 +6,7 @@ sidebar_position: 13
 description: "Inject Javascript activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Inject Javascript - akaBot Docs
+# Inject Javascript
 
 RCA.Activities.IE.InjectJs
 
@@ -43,8 +43,3 @@ The Inject Javascript allows you to inject Javascript on a webpage.
 **Output**
 
 * **JS Output (String)** - The outputted Script File with type = ‘String’. Not allow white space in output name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

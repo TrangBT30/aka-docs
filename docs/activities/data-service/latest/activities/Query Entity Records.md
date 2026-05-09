@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Query Entity Records activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [6] Query Entity Records - akaBot Docs
+# Query Entity Records
 
 RCA.Activities.DataService.QueryEntityRecords
 
@@ -44,9 +44,3 @@ This activity allows to retrieve a list of records for the selected Entity from 
   + Total Records: The total number of records matching the specified query filters
 
 ![image-20230630131952-6.png](/img/d552b8_image-20230630131952-6.png)
-
-Table of Content
-
-* [Description](#HDescriptionA0)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

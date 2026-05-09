@@ -6,7 +6,7 @@ sidebar_position: 5
 description: "Get Element activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Element - akaBot Docs
+# Get Element
 
 RCA.Activities.Java.GetElement
 
@@ -45,8 +45,3 @@ Text
 **Output**
 
 * **Output Element (JavaElement)**- The element you get from the Java file. Output to JavaElement variable only.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

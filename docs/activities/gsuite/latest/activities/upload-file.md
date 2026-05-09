@@ -6,7 +6,7 @@ sidebar_position: 16
 description: "Upload File activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Upload File - akaBot Docs
+# Upload File
 
 RCA.Activities.GSuite.UploadFile
 
@@ -44,9 +44,3 @@ This activity is specified for Google Drive to upload file.
 **Output**
 
 * **Result (String)** - ID of uploaded file. String variables are supported.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

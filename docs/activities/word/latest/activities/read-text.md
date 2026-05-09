@@ -6,7 +6,7 @@ sidebar_position: 5
 description: "Read Text activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Read Text - akaBot Docs
+# Read Text
 
 RCA.Activities.Word.ReadText
 
@@ -31,8 +31,3 @@ This activity allows to read all or specified context or characters from a file 
 **Output**
 
 * **Text (String)**- Context or specified characters that are extracted from the file and stored in a String variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Do Actions activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Do Actions - akaBot Docs
+# Do Actions
 
 RCA.Activities.Java.DoActions
 
@@ -46,8 +46,3 @@ Text
 **Output**
 
 * **Success (Boolean)**– Indicate if the action runs successfully.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

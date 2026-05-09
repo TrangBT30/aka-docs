@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Python Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Python Scope - akaBot Docs
+# Python Scope
 
 RCA.Activities.Python.PythonScope
 
@@ -40,9 +40,3 @@ A container that gives you the scope for Python activities and initializes the s
 
 * **Python Version (DropDownlist)**- A list of Python versions that you are using. By default, this is set to Auto.
 * **Target Platform (DropDownlist)**- You can choose different platforms for different Windows Application. x86 or x64.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

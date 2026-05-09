@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "Get Web Attribute (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Web Attribute (NB) - akaBot Docs
+# Get Web Attribute (NB)
 
 RCA.Activities.NativeBrowser.GetWebAttribute
 
@@ -49,9 +49,3 @@ The Get Web Attribute activity allows you to get the value of an attribute that 
 **Output**
 
 * **Output Value (String)** - Value of the attribute that will be outputted with type = ‘String’.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

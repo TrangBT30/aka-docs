@@ -6,7 +6,7 @@ sidebar_position: 28
 description: "Wait Page Load Complete activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [28]Wait Page Load Complete - akaBot Docs
+# Wait Page Load Complete
 
 RCA.Activities.Browser.WaitPageLoadComplete
 
@@ -37,8 +37,3 @@ The Wait Page Load Complete allows you to waits until a webpage is fully loaded.
 * **Wait Success (Boolean)**- A Boolean variable has two possible values: True or False  
   **・True** - The page was fully loaded.  
   **・False** - The page was not fully loaded.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

@@ -2,11 +2,11 @@
 id: release-notes
 title: "Release Notes"
 sidebar_label: "Release Notes"
-sidebar_position: 1
+sidebar_position: 2
 description: "Release Notes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Release Notes - akaBot Docs
+# Release Notes
 
 **RCA.Activities.Gsuite Version 2.2.1.0**
 
@@ -34,11 +34,6 @@ This release brings more new activities:
 * Rename sheet: Renames a sheet in an Excel file
 * Write Cell: Enters a text or a formula in a cell. The activity can be used with an Excel file selected for a parent Use Excel File activity or with the Project Notebook.
 * Write Range: Writes a DataTable variable to a specified Excel workbook cell range.
-
-Table of Content
-
-* + [1.  Sheets sub-package](#H1.A0Sheetssub-package)
-  + [2.  Drive sub-package](#H2.A0Drivesub-package)
 
 ### **2.  Drive sub-package**
 

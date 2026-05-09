@@ -6,7 +6,7 @@ sidebar_position: 7
 description: "Download File activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Download File - akaBot Docs
+# Download File
 
 RCA.Activities.GSuite.DownloadFile
 
@@ -35,9 +35,3 @@ This activity is specified for Google Drive to download file.
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [610085514] Download File
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

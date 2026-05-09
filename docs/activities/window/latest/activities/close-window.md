@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Close Window activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [03]Close Window - akaBot Docs
+# Close Window
 
 RCA.Activities.Windows.CloseWindow
 
@@ -58,9 +58,3 @@ The Close Window activity allows you to close an application window on the scree
 * **Wait For Disable (Checkbox)**- - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

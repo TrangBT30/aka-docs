@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Get Outlook Account Information activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Outlook Account Information - akaBot Docs
+# Get Outlook Account Information
 
 RCA.Activities.Mail.GetAccounts
 
@@ -29,8 +29,3 @@ This activity returns a list of Outlook accounts currently logged in on the mach
 **Output**
 
 * **Account Names (String)**: An array of strings representing the Outlook accounts.
-
-## Table of Contents
-
-* [Description](#description)
-* [Properties](#properties)

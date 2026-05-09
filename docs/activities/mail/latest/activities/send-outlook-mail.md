@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Send Outlook Mail activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [01]Send Outlook Mail - akaBot Docs
+# Send Outlook Mail
 
 RCA.Activities.Mail.SendOutlookMail
 
@@ -54,8 +54,3 @@ This activity allows you to send email messages from Outlook.
 * **Bcc (String)** - The hidden recipients of the email message.
 * **Cc (String)** - The secondary recipients of the email message.
 * **To (String)**\* - The main recipients of the email message.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

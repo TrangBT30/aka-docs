@@ -6,7 +6,7 @@ sidebar_position: 10
 description: "Word Application Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Word Application Scope - akaBot Docs
+# Word Application Scope
 
 RCA.Activities.Word.WordApplicationScope
 
@@ -38,8 +38,3 @@ Word Application Scope activity provides a space for all other Word activities t
 
 * **Password (String)**- Insert Word file password to proceed. String variables and Strings are supported.  
   E.g: “Password@123”.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

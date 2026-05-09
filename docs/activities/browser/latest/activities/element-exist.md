@@ -6,7 +6,7 @@ sidebar_position: 26
 description: "Element Exist activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [26]Element Exist - akaBot Docs
+# Element Exist
 
 RCA.Activities.Browser.ElementExist
 
@@ -58,9 +58,3 @@ The Element Exist allows you to confirm whether an element exist.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 30
 description: "Attach Process activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [30]Attach Process - akaBot Docs
+# Attach Process
 
 RCA.Activities.Windows.AttachProcess
 
@@ -62,9 +62,3 @@ This activity will allow running apps or multiple processes simultaneously. Afte
 * **Wait For Disable (Checkbox)** - Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

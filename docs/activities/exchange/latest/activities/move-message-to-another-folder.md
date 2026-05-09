@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Move Message To Another Folder activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Move Message To Another Folder - akaBot Docs
+# Move Message To Another Folder
 
 RCA.Activities.Mail.MoveMessageToFolder
 
@@ -52,8 +52,3 @@ Please refer to these link to know more about EWS
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: Move Message
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

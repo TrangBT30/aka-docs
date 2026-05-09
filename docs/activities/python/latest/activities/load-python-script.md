@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Load Python Script activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Load Python Script - akaBot Docs
+# Load Python Script
 
 RCA.Activities.Python.LoadScript
 
@@ -41,9 +41,3 @@ This activity enables you to store the handlers of a Python script in a PythonOb
 **Output**
 
 * **Result (PythonObject)**- The handlers for the specified Python script, are stored in a PythonObject variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "CV Check activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# CV Check - akaBot Docs
+# CV Check
 
 RCA.Activities.ComputerVision.CVCheck
 
@@ -51,9 +51,3 @@ Selects, clears, or toggles check boxes. This activity can only interact with ch
 **Reusable Region**
 
 * **OutputRegion (Rectangle)** - Saves the target of this activity as a Rectangle variable. This enables you to pass the same target from one activity to another. Especially useful at design time, as it makes performing multiple actions on the same UI element easier.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

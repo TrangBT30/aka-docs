@@ -6,7 +6,7 @@ sidebar_position: 3
 description: "Click activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Click - akaBot Docs
+# Click
 
 RCA.Activities.IE.Click
 
@@ -56,8 +56,3 @@ The Click activity is used to send a click action into a webpage.
 * **Scroll IntoView (Checkbox)** - If selected, the screen will automatically scroll to the desired element on the screen.
 * **Scroll Width (Number)**- Scroll before getting the element. To input a number equals to the amount of pixels to scroll horizontally. A negative value is to scroll to the leftwards, a positive value is to scroll rightwards.  
   Ex: 20
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

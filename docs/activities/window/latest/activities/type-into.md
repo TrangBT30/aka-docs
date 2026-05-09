@@ -6,7 +6,7 @@ sidebar_position: 15
 description: "Type Into activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [15]Type Into - akaBot Docs
+# Type Into
 
 RCA.Activities.Windows.TypeInto
 
@@ -71,9 +71,3 @@ The Type Into activity allows you to type into a text field of an indicated wind
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)** - Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)**- Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

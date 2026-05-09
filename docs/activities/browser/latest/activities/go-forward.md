@@ -6,7 +6,7 @@ sidebar_position: 7
 description: "Go Forward activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [07]Go Forward - akaBot Docs
+# Go Forward
 
 RCA.Activities.Browser.GoForward
 
@@ -28,8 +28,3 @@ The Go Forward activity goes forward one URL in the history list of the current 
 
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better. E.g: [3131265578] Go Forward
 * **Public (Checkbox)**- Check if you want to public it. Default is unchecked.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

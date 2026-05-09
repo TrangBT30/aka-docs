@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Browser Activities activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Browser Activities - akaBot Docs
+# Browser Activities
 
 The **Browser activities** package contains all the **basic activities** used for creating **Web**automation projects.
 
@@ -34,8 +34,3 @@ After click **Pick target element** button, the **Indicate** field specifie
 Here is an example result after indicate element on web:
 
 ![image-20220509131542-2.png](/img/23460f_image-20220509131542-2.png)
-
-See also:
-
-* [Release Notes](/bin/view/Activities/Browser%20Activities/%5B1%5D%20Release%20Notes/)
-* [Activities](/bin/view/Activities/Browser%20Activities/Activities/)

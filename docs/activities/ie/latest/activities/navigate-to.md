@@ -6,7 +6,7 @@ sidebar_position: 14
 description: "Navigate To activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Navigate To - akaBot Docs
+# Navigate To
 
 RCA.Activities.IE.NavigateTo
 
@@ -34,8 +34,3 @@ The Navigate To activity allows you to navigate to another URL on the current br
 * **Public (Checkbox)**- Check if you want to publicize it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Ex: [294859345] Navigate To.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

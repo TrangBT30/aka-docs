@@ -6,7 +6,7 @@ sidebar_position: 13
 description: "Move File activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Move File - akaBot Docs
+# Move File
 
 RCA.Activities.Gsuite.MoveFile
 
@@ -36,9 +36,3 @@ This activity allows you to move a file on Google Drive
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)**- The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   E.g: [345197651] Move File
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

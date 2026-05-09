@@ -6,7 +6,7 @@ sidebar_position: 9
 description: "Click activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [09]Click - akaBot Docs
+# Click
 
 RCA.Activities.Browser.Click
 
@@ -78,9 +78,3 @@ The Click activity is used to send a click action into a webpage.
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

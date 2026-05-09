@@ -6,7 +6,7 @@ sidebar_position: 5
 description: "Run Python Script activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Run Python Script - akaBot Docs
+# Run Python Script
 
 RCA.Activities.Python.RunScript
 
@@ -36,9 +36,3 @@ This activity enables you to run a Python Script. You can input the code directl
 * **Public (Checkbox)**- Check if you want to publicize it. Remember to consider data security requirements before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: Run Python Script
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

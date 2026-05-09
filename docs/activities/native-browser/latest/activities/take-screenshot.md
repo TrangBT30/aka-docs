@@ -6,7 +6,7 @@ sidebar_position: 22
 description: "Take Screenshot (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Take Screenshot (NB) - akaBot Docs
+# Take Screenshot (NB)
 
 RCA.Activities.NativeBrowser.TakeScreenshot
 

@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "Find File Folder activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Find File Folder - akaBot Docs
+# Find File Folder
 
 RCA.Activities.GSuite.FindFileFolder
 
@@ -44,9 +44,3 @@ This activity allows you to look for file or folder located on Google Drive. The
 
 * **FeelingLucky (String)** - The File ID of the first result. This property supports String variables
 * **Result (File)** - The files that match your search results. This property supports Google Files array variables.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 6
 description: "Replace Picture activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Replace Picture - akaBot Docs
+# Replace Picture
 
 RCA.Activities.Word.ReplacePicture
 

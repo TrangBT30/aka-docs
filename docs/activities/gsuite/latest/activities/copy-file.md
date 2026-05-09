@@ -6,7 +6,7 @@ sidebar_position: 2
 description: "Copy File activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Copy File - akaBot Docs
+# Copy File
 
 RCA.Activities.Gsuite.CopyFile
 
@@ -40,9 +40,3 @@ This activity allows you to copy a file on Google Drive
 **Output**
 
 * **Result (String)** - The ID of the copied file. This property supports String variables. You can use this variable as an input property value in other Google GSuite activities.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

@@ -6,7 +6,7 @@ sidebar_position: 8
 description: "Get Text (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Get Text (NB) - akaBot Docs
+# Get Text (NB)
 
 RCA.Activities.NativeBrowser.GetText
 
@@ -47,9 +47,3 @@ The Get Text activity extracts on a webpage and saves it in a String variable.
 **Output**
 
 * **Result (String)** - The extracted text as a String variable.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

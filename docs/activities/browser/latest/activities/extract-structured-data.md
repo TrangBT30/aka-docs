@@ -6,7 +6,7 @@ sidebar_position: 17
 description: "Extract Structured Data activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [17]Extract Structured Data - akaBot Docs
+# Extract Structured Data
 
 RCA.Activities.Browser.ExtractStructuredData
 
@@ -54,9 +54,3 @@ The Extract Structured Data allows you to extract structured data from a specifi
 **Output**
 
 * **Result (Data Table)\***- The outputted data with type = ‘DataTable’. Not allow white space in output’s name.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

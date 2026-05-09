@@ -6,7 +6,7 @@ sidebar_position: 33
 description: "Handle Alert activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [33]Handle Alert - akaBot Docs
+# Handle Alert
 
 RCA.Activities.Browser.HandleAlert
 
@@ -44,7 +44,7 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
   ・GETTEXT - Gets the text from alert box.  
   ・SENDKEYS – Sends string of text to the alert box.
 * **KeysToSend (String)\***- String of text passed to the alert box (with SENDKEYS handle option).  
-  E.g: {ENTER}, {TAB}..
+  E.g: `{ENTER}`, `{TAB}`..
 
 **Misc**
 
@@ -55,9 +55,3 @@ The Handle Alert activity allows you to handle alert popup box in various ways.
 **Output**
 
 * **Alert Text (String)**\* - Text returned from the alert box.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

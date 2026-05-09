@@ -6,7 +6,7 @@ sidebar_position: 5
 description: "Maximize Window activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [05]Maximize Window - akaBot Docs
+# Maximize Window
 
 RCA.Activities.Windows.MaximizeWindow
 
@@ -58,9 +58,3 @@ The Maximize Window selects a window and maximizes it.
 * **Wait For Disable (Checkbox)**- Waits for element to be unable to interact with.
 * **Wait For Enable (Checkbox)**- Waits for element to be able to interact with.
 * **Wait For Vanish (Checkbox)** - Waits for element to vanish.
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of activity](#HInthebodyofactivity)
-* [Properties](#HProperties)

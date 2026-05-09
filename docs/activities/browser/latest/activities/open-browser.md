@@ -6,15 +6,9 @@ sidebar_position: 1
 description: "Open Browser activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [01]Open Browser - akaBot Docs
+# Open Browser
 
 RCA.Activities.Browser.OpenBrowser
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)
 
 ## **Description**
 

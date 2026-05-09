@@ -6,7 +6,7 @@ sidebar_position: 12
 description: "GSuite Application Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# GSuite Application Scope - akaBot Docs
+# GSuite Application Scope
 
 RCA.Activities.GSuite.GsuiteApplicationScope
 
@@ -50,8 +50,3 @@ This activity allows you to handle the connection client and authentication for 
 * **Public (Checkbox)** - Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   **E.g**: [4523423424] GSuite Application Scope
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

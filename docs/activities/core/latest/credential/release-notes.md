@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Release Notes activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Release Notes - akaBot Docs
+# Release Notes
 
 ## **RCA.Activities.Core Version 2.2.0.1**
 

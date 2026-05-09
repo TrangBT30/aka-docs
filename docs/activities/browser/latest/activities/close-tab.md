@@ -6,7 +6,7 @@ sidebar_position: 14
 description: "Close tab activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [14] Close tab - akaBot Docs
+#  Close tab
 
 RCA.Activities.Browser.CloseTab
 

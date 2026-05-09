@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Send Exchange Mail activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Send Exchange Mail - akaBot Docs
+# Send Exchange Mail
 
 RCA.Activities.Mail.SendExchangeMail
 
@@ -71,8 +71,3 @@ This activity allows you to send email messages from Exchange.
 * **Bcc (String)**- The hidden recipients of the email message.
 * **Cc (String)** - The secondary recipients of the email message.
 * **To (String)**\* - The main recipients of the email message.
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

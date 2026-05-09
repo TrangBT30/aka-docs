@@ -6,7 +6,7 @@ sidebar_position: 25
 description: "Wait Page Load Complete (NB) activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Wait Page Load Complete (NB) - akaBot Docs
+# Wait Page Load Complete (NB)
 
 RCA.Activities.NativeBrowser.WaitPageLoadComplete
 

@@ -6,7 +6,7 @@ sidebar_position: 29
 description: "Wait Web Attribute activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [29]Wait Web Attribute - akaBot Docs
+# Wait Web Attribute
 
 RCA.Activities.Browser.WaitWebAttribute
 
@@ -60,9 +60,3 @@ The Wait Web Attribute waits for the value of a specified web attribute to be en
   + Positive value → scroll down
   + Negative value → scroll up
   + E.g: 300
-
-Table of Content
-
-* [Description](#HDescription)
-* [In the body of the activity](#HInthebodyoftheactivity)
-* [Properties](#HProperties)

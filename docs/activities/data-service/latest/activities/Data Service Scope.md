@@ -6,7 +6,7 @@ sidebar_position: 1
 description: "Data Service Scope activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# [1] Data Service Scope - akaBot Docs
+# [1] Data Service Scope
 
 RCA.Activities.DataService.DataServiceScope
 
@@ -28,8 +28,3 @@ This scope helps to run Data Service activities
   + **Out Data Service Client:**The DataService Scope activities following this activity attempt to use this output to avoid re-authentication
 
 ![image-20230630131823-1.png](/img/d58a92_image-20230630131823-1.png)
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)

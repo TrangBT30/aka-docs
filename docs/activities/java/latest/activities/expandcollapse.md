@@ -6,7 +6,7 @@ sidebar_position: 4
 description: "Expand/Collapse activity documentation."
 displayed_sidebar: activitiesSidebar
 ---
-# Expand/Collapse - akaBot Docs
+# Expand/Collapse
 
 RCA.Activities.Java.ExpandCollapse
 
@@ -43,8 +43,3 @@ Text
 * **Public (Checkbox)**- Check if you want to public it. Remember to consider data security requirement before using it.
 * **Display Name (String)** - The name of this activity. You can edit the name of the activity to organize and structure your code better.  
   Eg: Expand Collapse
-
-Table of Content
-
-* [Description](#HDescription)
-* [Properties](#HProperties)
