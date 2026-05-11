@@ -1,4 +1,4 @@
-﻿---
+---
 id: clear-collection
 title: "Clear Collection"
 sidebar_label: "Clear Collection"
