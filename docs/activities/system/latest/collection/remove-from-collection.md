@@ -1,4 +1,4 @@
-﻿---
+---
 id: remove-from-collection
 title: "Remove From Collection"
 sidebar_label: "Remove From Collection"

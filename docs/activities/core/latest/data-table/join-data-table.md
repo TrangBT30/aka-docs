@@ -1,4 +1,4 @@
-﻿---
+---
 id: join-data-table
 title: "Join Data Tables"
 sidebar_label: "Join Data Tables"

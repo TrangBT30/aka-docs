@@ -1,4 +1,4 @@
-﻿---
+---
 id: set-agent-credential
 title: "Set Agent Credential"
 sidebar_label: "Set Agent Credential"

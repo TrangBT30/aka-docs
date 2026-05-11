@@ -1,4 +1,4 @@
-﻿---
+---
 id: monitor-events
 title: "Monitor Events"
 sidebar_label: "Monitor Events"
