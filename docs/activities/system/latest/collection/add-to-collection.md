@@ -1,4 +1,4 @@
-﻿---
+---
 id: add-to-collection
 title: "Add To Collection"
 sidebar_label: "Add To Collection"
