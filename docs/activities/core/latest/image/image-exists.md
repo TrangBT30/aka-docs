@@ -1,4 +1,4 @@
-﻿---
+---
 id: image-exists
 title: "Image Exists"
 sidebar_label: "Image Exists"
