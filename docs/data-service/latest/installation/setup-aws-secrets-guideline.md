@@ -62,7 +62,7 @@ Update param to file : win-install.bat
 
 ## **4. Using parameters**
 
-Using a normal environment variable: ${param}
+Using a normal environment variable: `${param}`
 
 ![1776047326889-829.png](/static/img/a746bd_1776047326889-829.png)
 
