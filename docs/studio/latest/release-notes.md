@@ -9,6 +9,95 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.0.0.0 - Jan 06, 2026
+
+### Changes
+* Upgrade platform to .NET Framework 4.7.2
+* Update: changed installer from msi to exe file format
+* Changed: platform dependency to Newtonsoft.Json 13.0.2
+* Changed: algorithm to encrypt sensitive information in settings.json file to AES-256
+* Changed: when create new workflow project in Studio, the default version of packages will be Core 3.3.0, Excel 3.1.1.2, Common 4.2.0
+* Added: option to remove unused screenshot images and log files before publish package to Center
+* Changed: Windows SDK version to 10.0.19041.0
+* Added: show user confirmation dialog before install browser extension
+
+### Backward compatible activity
+
+**These packages will compatible and can be run with older platform version.**
+
+* AIServices 3.1.0.0
+* Box 3.0.0.0
+* CVLocalServer 3.1.1.8
+* Common 4.2.0.0
+* IDP 3.0.0.0
+* IE 3.1.2.4
+* AppConnect.Salesforce 3.0.0.0
+* Java 3.3.0.3
+* NativeBrowser 6.0.0.4
+* OCRLocalServer 3.1.1.7
+* OCR 3.1.0.1
+* PDF 3.1.2.0
+* Salesforce 3.0.0.0
+* Browser 3.2.0.5
+* Windows 3.1.2.1
+
+**These packages will not depends on platform from this version.**
+* ActiveDirectory 3.1.0.0
+* Catia 3.1.0.0
+* Excel 3.1.1.2
+* FTP 3.1.0.3
+* FormBuilder 3.1.1.2
+* GSuite 3.2.1.0
+* GoogleCloud 3.0.0.1
+* Mail 3.1.2.0
+* Office365 3.0.1.0
+* PCOMM 3.1.0.0
+* Python 3.1.0.5
+* Word 3.2.1.0
+
+NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
+
+Click [here](https://ws3.akabot.com/s/syU2TSmP3oNcOhD) to download.
+
+## v2.2.0.11 - Apr 29, 2026
+
+### New features
+
+* Common v4.4.0 package included in the installer.
+* log4net as the logging engine with 7-day backup.
+
+### Bug fixes
+
+* Race condition causing multiple script loads in Browser Extension v3.0.5.
+* Race condition when sending and receiving messages in Native Host.
+
+Click [here](https://ws3.akabot.com/s/8z0ZSMFVjhzfrNw) to download.
+
+SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
+
+## v2.2.0.10 - Apr 21, 2026
+
+* [Updated] Windows SDK upgraded to version 10.0.19041.0.
+* [Updated] C++ platform toolset upgraded to v142.
+* [Updated] Event Trigger disabled by default.
+
+To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config
+
+Click [here](https://ws3.akabot.com/s/btdj2o558GaCHYn) to download.
+
+## v2.2.0.9 - Dec 24, 2025
+
+* Added: install Firefox extension from Studio Options screen
+* Added: Firefox xpi files to installation folder
+
+Click [here](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF) to download.
+
+## v2.2.0.8b - Dec 05, 2025.
+
+* Fixed: wrong Microsoft Edge extension id and registry value
+
+Click [here](https://ws3.akabot.com/s/LFHMJd6PSucZrXg) to download.
+
 ## v2.2.0.8a - Nov 28, 2025.
 
 * Fixed: deserialize JSON string value before encode to make it compatible with platform version &lt;= 2.2.0.7
@@ -64,6 +153,8 @@ displayed_sidebar: studioSidebar
 
 * [Added] LookupRange activity.
 * [Fixed] Lookup behavior on merged cell scenarios.
+
+Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.5r - Mar 04, 2025
 
@@ -148,6 +239,8 @@ displayed_sidebar: studioSidebar
 * More resilient named pipe communication
 * Stronger logging and diagnostics
 
+Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
+
 ## v2.2.0.3 - Jun 14, 2024
 
 ### New features
@@ -163,6 +256,8 @@ displayed_sidebar: studioSidebar
 
 * Fix minor bugs RCA.Activities.Common.1.0.0.1.nupkg, RCA.Activities.Java.2.3.0.1.nupkg (Java x86 & SAP).
 * Fix minor bugs on Load script for Native Browser package
+
+Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.2 - Jul 24, 2023
 
@@ -199,6 +294,8 @@ displayed_sidebar: studioSidebar
 * Optimize dependency load to increase the bot's startup speed.
 * Specific error messages indicating the exact causes have been added when publishing the project.
 * Activity take screenshot: default captures a full-screen image (if no selector is chosen).
+
+Click [here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.1
 
