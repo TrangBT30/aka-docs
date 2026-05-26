@@ -1,5 +1,5 @@
 ---
-id: insight-activation
+id: activation
 title: "アクティベーション"
 sidebar_label: "アクティベーション"
 sidebar_position: 2

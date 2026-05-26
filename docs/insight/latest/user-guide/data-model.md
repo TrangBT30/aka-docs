@@ -1,5 +1,5 @@
 ---
-id: insight-data-model
+id: data-model
 title: Insight Data Model
 sidebar_label: Data Model
 sidebar_position: 2

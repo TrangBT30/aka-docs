@@ -1,5 +1,5 @@
 ---
-id: dashboards-overview
+id: overview
 title: Dashboards Overview
 sidebar_label: Overview
 sidebar_position: 1

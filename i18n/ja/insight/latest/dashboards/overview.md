@@ -1,5 +1,5 @@
 ---
-id: dashboards-overview
+id: overview
 title: "ダッシュボードの概要"
 sidebar_label: "概要"
 sidebar_position: 1

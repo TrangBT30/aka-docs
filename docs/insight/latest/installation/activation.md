@@ -1,5 +1,5 @@
 ---
-id: insight-activation
+id: activation
 title: Activation
 sidebar_label: Activation
 sidebar_position: 2

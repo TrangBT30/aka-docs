@@ -1,5 +1,5 @@
 ---
-id: insight-installation
+id: installation
 title: "インストール"
 sidebar_label: "インストール"
 sidebar_position: 1
