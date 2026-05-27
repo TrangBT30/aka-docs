@@ -2,7 +2,7 @@
 id: manage-access
 title: "Manage Access"
 sidebar_label: "Manage Access"
-sidebar_position: 3
+sidebar_position: 1
 description: "Manage Access documentation."
 displayed_sidebar: dataServiceSidebar
 ---
@@ -23,9 +23,9 @@ The following steps enable you to manage access on Data Service:
 
 The following tabs are available:
 
-* [Assign User](/bin/view/Data%20Service/Getting%20Started/Manage%20Access/Assign%20Users/)
-* [Assign Agents](/bin/view/Data%20Service/Getting%20Started/Manage%20Access/Assign%20Agents/)
-* [Assign Tokens](/bin/view/Data%20Service/Getting%20Started/Manage%20Access/Assign%20Tokens/)
+* [Assign User](/docs/data-service/latest/user-guide/manage-access/assign-users.md)
+* [Assign Agents](/docs/data-service/latest/user-guide/manage-access/assign-agents.md)
+* [Assign Tokens](/docs/data-service/latest/user-guide/manage-access/assign-tokens.md)
 
 ## **Standard Permissions**
 
