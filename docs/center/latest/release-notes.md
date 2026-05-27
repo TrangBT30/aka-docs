@@ -9,7 +9,9 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — Release Notes
 
-## v4.0.0.12 — May 22, 2026
+## v4.0.0.12
+
+Build date: May 22, 2026
 
 Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) and then contact [support team](mailto:support@akabot.com) to get download password.
 
@@ -44,7 +46,9 @@ Click [this link](https://ws3.fpt-software.vn/s/al53MD2ASfXxcaO) and then contac
 
 ---
 
-## v4.0.0.11 — Apr 10, 2026
+## v4.0.0.11
+
+Build date: Apr 10, 2026
 
 Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [support team](mailto:support@akabot.com) to get download password.
 
@@ -66,7 +70,9 @@ Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [su
 
 ---
 
-## v4.0.0.5 — Apr 29, 2025.
+## v4.0.0.5
+
+Build date: Apr 29, 2025.
 
 ### New features
 
@@ -117,7 +123,9 @@ Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [su
 
 ---
 
-## v4.0.0.4 — Jan 24, 2025
+## v4.0.0.4
+
+Build date: Jan 24, 2025
 
 ### New features
  - **[Upgrade]** quartz-scheduler, guava library
@@ -130,7 +138,9 @@ Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [su
 
 ---
 
-## v4.0.0.2 — Dec 20, 2024
+## v4.0.0.2
+
+Build date: Dec 20, 2024
 
 ### New features 
 - **[Added]** Support LDAP integration.
@@ -152,7 +162,9 @@ Click [this link](https://ws3.akabot.com/s/LJKz0qSabJUSkvq) and then contact [su
 
 ---
 
-## v3.0.1.4 — May 21, 2024.
+## v3.0.1.4
+
+Build date: May 21, 2024.
 
 Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) and then contact [support team](mailto:support@akabot.com) to get download password.
 
@@ -178,7 +190,9 @@ Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) and then contac
 
 ---
 
-## v3.0.1.3 — Sep 22, 2023
+## v3.0.1.3
+
+Build date: Sep 22, 2023
 
 Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contact [support team](mailto:support@akabot.com) to get download password.
 
@@ -297,7 +311,8 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contac
 
 --- 
 
-## v3.0.0.0 
+## v3.0.0.0
+
 ### New features
 - [Update] Dashboard: Components on the dashboard were restructured.
 - [Update] The UI was improved with a friendlier style.
@@ -318,7 +333,8 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contac
 
 --- 
 
-## v2.2.0.1 
+## v2.2.0.1
+
 ### New features
 - [Update] Upgrade angular version (from 5 to 11)
 
@@ -342,6 +358,7 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contac
 ---
 
 ## v2.0.5.5
+
 ### New features
 - [Updated] License activation is possible before StartDate.
 - [Updated] Expand Info display field to much wider (2 col x 2 lines) on Task details page.
@@ -362,6 +379,7 @@ Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) and then contac
 ---
 
 ## v2.0.5.4
+
 ### New features
 - [Added] License expires.
 - [Added] Add filter to queue detail screen.
