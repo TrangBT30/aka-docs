@@ -11,10 +11,6 @@ displayed_sidebar: centerSidebar
 
 ## v4.0.0.13
 
-Build date: May 29, 2026
-
-Click [this link](https://ws3.fpt-software.vn/s/HNJwxPFqSpDzcuM) to download.
-
 ### Bug Fixes
 
 - Fixed incorrect Secret Manager Type handling.
@@ -22,8 +18,6 @@ Click [this link](https://ws3.fpt-software.vn/s/HNJwxPFqSpDzcuM) to download.
 ---
 
 ## v4.0.0.12
-
-Build date: May 22, 2026
 
 ### New features
 
@@ -58,8 +52,6 @@ Build date: May 22, 2026
 
 ## v4.0.0.11
 
-Build date: Apr 10, 2026
-
 ### New features
 - Added caching functionality to reduce requests to external Vault systems.
 
@@ -79,8 +71,6 @@ Build date: Apr 10, 2026
 ---
 
 ## v4.0.0.5
-
-Build date: Apr 29, 2025.
 
 ### New features
 
@@ -133,8 +123,6 @@ Build date: Apr 29, 2025.
 
 ## v4.0.0.4
 
-Build date: Jan 24, 2025
-
 ### New features
  - **[Upgrade]** quartz-scheduler, guava library
 
@@ -147,8 +135,6 @@ Build date: Jan 24, 2025
 ---
 
 ## v4.0.0.2
-
-Build date: Dec 20, 2024
 
 ### New features 
 - **[Added]** Support LDAP integration.
@@ -171,10 +157,6 @@ Build date: Dec 20, 2024
 ---
 
 ## v3.0.1.4
-
-Build date: May 21, 2024.
-
-Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) to download.
 
 ### New features
 - Add priority for agent pool
@@ -199,10 +181,6 @@ Click [this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb) to download.
 ---
 
 ## v3.0.1.3
-
-Build date: Sep 22, 2023
-
-Click [this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ) to download.
 
 ### New features
 - [Messages] Enhance error messages to provide clearer descriptions for users.

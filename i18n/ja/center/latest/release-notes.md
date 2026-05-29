@@ -9,7 +9,7 @@ displayed_sidebar: centerSidebar
 
 # Akabot Center — リリースノート
 
-## v4.0.0.12 — 2026 年 5 月 22 日
+## v4.0.0.12
 
 ### 新機能
 
@@ -42,7 +42,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v3.2.0 — 2026 年 4 月
+## v3.2.0
 
 ### 新機能
 - **オートパイロット オーケストレーション** — 自然言語でトリガー条件と目標を説明します。 Center はスケジュールとキューの構成を自動的に構築します。
@@ -61,7 +61,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v3.1.0 — 2026 年 1 月
+## v3.1.0
 
 ### 新機能
 - **マルチテナント** — 単一の Center インストールで、個別のユーザー、ロボット、プロセスを持つ複数の分離テナントをホストできるようになりました。
@@ -78,7 +78,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v3.0.0 — 2025 年 9 月
+## v3.0.0
 
 ### 新機能
 - **Center 3.0 ポータル** — アクセシビリティが向上し、React 上に構築された完全に再設計された Web UI (WCAG 2.1 AA)。
@@ -95,7 +95,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v4.0.0.11 — 2026 年 4 月 10 日
+## v4.0.0.11
 
 ### 新機能
 - 外部 Vault システムへのリクエストを減らすためのキャッシュ機能が追加されました。
@@ -115,7 +115,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v4.0.0.5 — 2025 年 4 月 29 日。
+## v4.0.0.5
 
 ### 新機能
 
@@ -166,7 +166,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v4.0.0.4 — 2025 年 1 月 24 日
+## v4.0.0.4
 
 ### 新機能
  - **[アップグレード]** クォーツスケジューラ、guava ライブラリ
@@ -179,7 +179,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v4.0.0.2 — 2024 年 12 月 20 日
+## v4.0.0.2
 
 ### 新機能
 - **[追加]** LDAP 統合をサポートします。
@@ -201,10 +201,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v3.0.1.4 — 2024 年 5 月 21 日。
-
-[this link](https://ws3.fpt-software.vn/s/etKbBjmxRyrBlbb)をクリックしてダウンロードします。
-パスワード: akaBot@12345
+## v3.0.1.4
 
 ### 新機能
 - エージェントプールの優先順位を追加
@@ -228,8 +225,7 @@ displayed_sidebar: centerSidebar
 
 ---
 
-## v3.0.1.3 — 2023 年 9 月 22 日
-[this link](https://ws3.fpt-software.vn/s/UkAIk0eGDsLkbXJ)をクリックしてダウンロードします。パスワード: akaBot@12345
+## v3.0.1.3
 
 ### 新機能
 - [メッセージ] エラー メッセージを強化し、ユーザーにわかりやすい説明を提供します。

@@ -9,7 +9,7 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — リリースノート
 
-## v3.0.0.0 - 2026 年 1 月 6 日
+## v3.0.0.0
 
 ### 変更点
 * プラットフォームを .NET Framework 4.7.2 にアップグレードする
@@ -55,11 +55,7 @@ displayed_sidebar: studioSidebar
 * Python 3.1.0.5
 * Word 3.2.1.0
 
-注: これはベータ版です。ご自身の責任でご使用ください。
-
-[here](https://ws3.akabot.com/s/syU2TSmP3oNcOhD)をクリックしてダウンロードします。
-
-## v2.2.0.11 - 2026 年 4 月 29 日
+## v2.2.0.11
 
 ### 新機能
 
@@ -71,11 +67,7 @@ displayed_sidebar: studioSidebar
 * 競合状態により、ブラウザ拡張機能 v3.0.5 で複数のスクリプトがロードされます。
 * ネイティブ ホストでメッセージを送受信する際の競合状態。
 
-[here](https://ws3.akabot.com/s/8z0ZSMFVjhzfrNw)をクリックしてダウンロードします。
-
-SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
-
-## v2.2.0.10 - 2026 年 4 月 21 日
+## v2.2.0.10
 
 * [更新] Windows SDK がバージョン 10.0.19041.0 にアップグレードされました。
 * [更新] C++ プラットフォーム ツールセットが v142 にアップグレードされました。
@@ -83,26 +75,20 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 
 イベント トリガーを有効にするには、ファイル C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config で AutoStartEventTrigger=True を設定します。
 
-[here](https://ws3.akabot.com/s/btdj2o558GaCHYn)をクリックしてダウンロードします。
-
-## v2.2.0.9 - 2025 年 12 月 24 日
+## v2.2.0.9
 
 * 追加: Studio オプション画面から Firefox 拡張機能をインストールする
 * 追加: Firefox xpi ファイルをインストールフォルダーに追加
 
-[here](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF)をクリックしてダウンロードします。
-
-## v2.2.0.8b - 2025 年 12 月 5 日。
+## v2.2.0.8b
 
 * 修正: 間違った Microsoft Edge 拡張機能 ID とレジストリ値
 
-[here](https://ws3.akabot.com/s/LFHMJd6PSucZrXg)をクリックしてダウンロードします。
-
-## v2.2.0.8a - 2025 年 11 月 28 日。
+## v2.2.0.8a
 
 * 修正: プラットフォーム バージョン &lt;= 2.2.0.7 と互換性を持たせるために、エンコード前に JSON 文字列値を逆シリアル化します。
 
-## v2.2.0.8 - 2025 年 11 月 20 日
+## v2.2.0.8
 
 * Studio 構成に gitlab nuget リポジトリ サーバーを追加しました
 * 追加: CSharp コード ファイルを dll にビルドし、Studio/Executor にロードする
@@ -114,7 +100,7 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 * 追加: ユーザーが Chrome および Edge 拡張機能をインストール、アンインストールできる Studio 管理ページ
 * 修正: エージェント UI で設定が変更された場合、ブラウザの自動検出が正しく機能しない
 
-## v2.2.0.7c - 2025 年 9 月 23 日
+## v2.2.0.7c
 
 ### スタジオとエージェント
 
@@ -154,9 +140,7 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 * [追加] LookupRange アクティビティ。
 * [修正] 結合されたセルのシナリオでのルックアップ動作。
 
-[here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b)をクリックしてダウンロードします。パスワード:![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
-
-## v2.2.0.5 - 2025 年 3 月 4 日
+## v2.2.0.5
 
 ### アカボットスタジオ
 
@@ -239,9 +223,7 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 * より復元力の高い名前付きパイプ通信
 * より強力なロギングと診断
 
-[here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY)をクリックしてダウンロードします。パスワード:![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
-
-## v2.2.0.3 - 2024 年 6 月 14 日
+## v2.2.0.3
 
 ### 新機能
 
@@ -257,9 +239,7 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 * マイナーなバグ RCA.Activities.Common.1.0.0.1.nupkg、RCA.Activities.Java.2.3.0.1.nupkg (Java x86 および SAP) を修正しました。
 * ネイティブブラウザパッケージのロードスクリプトに関する軽微なバグを修正
 
-[here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ)をクリックしてダウンロードします。パスワード:![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
-
-## v2.2.0.2 - 2023 年 7 月 24 日
+## v2.2.0.2
 
 ### 新機能
 
@@ -294,8 +274,6 @@ SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
 * 依存関係の負荷を最適化して、ボットの起動速度を向上させます。
 * プロジェクトの公開時に、正確な原因を示す特定のエラー メッセージが追加されました。
 * アクティビティのスクリーンショットの取得: デフォルトでは、全画面画像がキャプチャされます (セレクターが選択されていない場合)。
-
-[here](https://ws3.fpt-software.vn/s/S9S2v60JjahYvVr)をクリックしてダウンロードします。パスワード:![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.1
 

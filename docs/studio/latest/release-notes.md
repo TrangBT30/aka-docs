@@ -11,7 +11,7 @@ displayed_sidebar: studioSidebar
 
 ## v3.0.0.0
 
-Build date: Jan 06, 2026
+> NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
 
 ### Changes
 * Upgrade platform to .NET Framework 4.7.2
@@ -57,13 +57,7 @@ Build date: Jan 06, 2026
 * Python 3.1.0.5
 * Word 3.2.1.0
 
-NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
-
-Click [here](https://ws3.akabot.com/s/syU2TSmP3oNcOhD) to download.
-
 ## v2.2.0.12
-
-Build date: May 25, 2026
 
 * Added: CRX files for Chrome and Edge extension v3.0.5
 * Added: Common v3.3.0 and v4.6.0 packages
@@ -75,13 +69,7 @@ Build date: May 25, 2026
 * Fixed: [NamedPipeWrapper.dll] named pipe server to not allow adding connections while disposing
 * Fixed: [Agent] log4net logging format
 
-SHA1: 77083e8201bc910591459033ce5afcd638be7c80
-
-Click [here](https://ws3.akabot.com/s/JA95evQz7ZOvT4l) to download.
-
 ## v2.2.0.11
-
-Build date: Apr 29, 2026
 
 ### New features
 
@@ -93,13 +81,7 @@ Build date: Apr 29, 2026
 * Race condition causing multiple script loads in Browser Extension v3.0.5.
 * Race condition when sending and receiving messages in Native Host.
 
-Click [here](https://ws3.akabot.com/s/8z0ZSMFVjhzfrNw) to download.
-
-SHA1: 5b034a8d6ae8f59ef5c45299b4a87421b2c53922
-
 ## v2.2.0.10
-
-Build date: Apr 21, 2026
 
 * [Updated] Windows SDK upgraded to version 10.0.19041.0.
 * [Updated] C++ platform toolset upgraded to v142.
@@ -107,34 +89,20 @@ Build date: Apr 21, 2026
 
 To enable Event Trigger, set AutoStartEventTrigger=True in the file: C:\\Program Files\\FPT Software\\akaBot Platform\\BotService.exe.config
 
-Click [here](https://ws3.akabot.com/s/btdj2o558GaCHYn) to download.
-
 ## v2.2.0.9
-
-Build date: Dec 24, 2025
 
 * Added: install Firefox extension from Studio Options screen
 * Added: Firefox xpi files to installation folder
 
-Click [here](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF) to download.
-
 ## v2.2.0.8b
-
-Build date: Dec 05, 2025.
 
 * Fixed: wrong Microsoft Edge extension id and registry value
 
-Click [here](https://ws3.akabot.com/s/LFHMJd6PSucZrXg) to download.
-
 ## v2.2.0.8a
-
-Build date: Nov 28, 2025.
 
 * Fixed: deserialize JSON string value before encode to make it compatible with platform version &lt;= 2.2.0.7
 
 ## v2.2.0.8
-
-Build date: Nov 20, 2025
 
 * Added: gitlab nuget repository server to Studio configuration
 * Added: build CSharp code files to dll and load into Studio/Executor
@@ -147,8 +115,6 @@ Build date: Nov 20, 2025
 * Fixed: browser auto-detect not works correctly when settings changed in Agent UI
 
 ## v2.2.0.7c
-
-Build date: Sep 23, 2025
 
 ### Studio & Agent
 
@@ -191,8 +157,6 @@ Build date: Sep 23, 2025
 Click [here](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.5
-
-Build date: Mar 04, 2025
 
 ### akaBot Studio
 
@@ -279,8 +243,6 @@ Click [here](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY) to download. Passw
 
 ## v2.2.0.3
 
-Build date: Jun 14, 2024
-
 ### New features
 
 * Support run Pip mode.
@@ -298,8 +260,6 @@ Build date: Jun 14, 2024
 Click [here](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ) to download. Password: ![1775104382111-889.png](/static/img/795d5f_1775104382111-889.png)
 
 ## v2.2.0.2
-
-Build date: Jul 24, 2023
 
 ### New features
 
