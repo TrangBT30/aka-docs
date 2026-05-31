@@ -8,8 +8,8 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.IDP Version 2.1.2.3**
+## v2.1.2.3
 
-### **Bugs Fixed**
+**Bugs Fixed**
 
 * This is sample content

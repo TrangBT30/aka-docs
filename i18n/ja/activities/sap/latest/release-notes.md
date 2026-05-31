@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Common.SAP バージョン 2.1.0.1**
+## v2.1.0.1
 
-### **機能が追加されました**
+**機能が追加されました**
 
 * 新しいアクティビティを追加します。
   + SAP ログオン

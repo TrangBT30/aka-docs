@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Mail バージョン 2.1.1.0**
+## v2.1.1.0
 
-### **バグ修正**
+**バグ修正**
 
 * [修正] [GetExchangeMailMessgaes] フィールド「パスワード」と「ユーザー」を入力しないとエラーが表示されない
 * [修正] [GetExchangeMailMessages] 代理送信でメールを取得できない

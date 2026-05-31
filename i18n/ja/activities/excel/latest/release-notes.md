@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Excel バージョン 2.1.1.0**
+## v2.1.1.0
 
-### **バグ修正**
+**バグ修正**
 
 * 【ExcelApplicationScope】Excelファイルにパスワード保護シートが設定されている場合のメッセージを編集します。
 * [ExportChart] ファイル Excel のチャート名が同じである場合、エクスポート チャートが表示されません。

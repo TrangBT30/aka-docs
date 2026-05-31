@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Core v2.2.0.1**
+## v2.2.0.1
 
 **バグ修正**
 
@@ -21,7 +21,7 @@ displayed_sidebar: activitiesSidebar
 
 * RCA.Activities.Core.GetFiles の条件フィルターに変更日プロパティを追加しました
 
-## **RCA.Activities.Core v2.3.0**
+## v2.3.0
 
 **機能が追加されました**
 

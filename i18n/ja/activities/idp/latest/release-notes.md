@@ -8,8 +8,8 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.IDP バージョン 2.1.2.3**
+## v2.1.2.3
 
-### **修正されたバグ**
+**修正されたバグ**
 
 * これはサンプルコンテンツです

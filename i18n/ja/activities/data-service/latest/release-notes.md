@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **データサービス 1.0.0**
+## v1.0.0
 
 * データサービスの範囲
 * エンティティレコードの作成

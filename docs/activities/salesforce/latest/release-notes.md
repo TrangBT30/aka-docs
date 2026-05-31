@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Salesforce Version 2.1.0.1**
+## v2.1.0.1
 
-### **Features Added**
+**Features Added**
 
 * Composite Request
 * Insert Record

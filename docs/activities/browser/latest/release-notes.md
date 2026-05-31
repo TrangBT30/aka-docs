@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-### **Browser v2.3.0.5**
+### v2.3.0.5
 
 Release notes:
 
@@ -16,19 +16,19 @@ Release notes:
 2. Added: Support wildcard to Select Item activity (By Text and By Value). Note: just asterisk (\*) is supported.  
 3. Added: Enable Selenium driver logging by insert "enableDriverLog" to Open Brower > Arguments property.
 
-### **Browser v2.3.0.4**
+### v2.3.0.4
 
 Release notes:
 
 1. Added: Input method for Type Into activity.
 
-### **Browser v2.3.0.2**
+### v2.3.0.2
 
 Release notes:  
 1. Update: set default value of property WaitVisible to true  
 2. Added: Wait Clickable property for Click activity
 
-### **Browser v2.3.0.1**
+### v2.3.0.1
 
 Release notes:  
 1. Upgrade Selenium WebDriver, IEDriverServer  
@@ -55,7 +55,7 @@ Release notes:
 6. Type Into, Click, Send Hotkey  
 - Added: auto fallback mechanism from Default > Simulate > Hardware (IE mode only)
 
-### **Browser v2.2.0.0**
+### v2.2.0.0
 
 Release notes
 

@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.ComputerVision Version 1.0.0.0**
+## v1.0.0.0
 
-### **Features added**
+**Features added**
 
 * Add new activities:
   + CV Check

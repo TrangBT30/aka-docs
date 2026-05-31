@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.ComputerVision バージョン 1.0.0.0**
+## v1.0.0.0
 
-### **機能が追加されました**
+**機能が追加されました**
 
 * 新しいアクティビティを追加します。
   + 履歴書チェック

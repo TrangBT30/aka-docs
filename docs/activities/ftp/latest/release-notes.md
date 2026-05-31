@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.FTP Version 2.1.0.3**
+## v2.1.0.3
 
-### **Bugs fixed**
+**Bugs fixed**
 
 * [Fixed] [UploadFiles] Cannot upload file/folder to a folder with dot (.) in name with both ISS and Wing
 * [Fixed] [UploadFiles] Show "MKD failed..." message when upload Japanese folder name

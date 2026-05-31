@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Java Version 2.3.0.0**
+## v2.3.0.0
 
-### **Bugs Fixed**
+**Bugs Fixed**
 
 * [GetText] Do not show all data when the selector contains text.
 * [Click] Cannot move mouse point when select Click Type= LeftClick, Animate Mouse = check.

@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **Data Service 1.0.0**
+## v1.0.0
 
 * Data Service Scope
 * Create Entity Record

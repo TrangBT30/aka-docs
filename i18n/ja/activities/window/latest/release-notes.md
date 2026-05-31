@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Windows バージョン 2.1.2.1**
+## 2.1.2.1
 
-### **バグ修正**
+**バグ修正**
 
 * **Show Window** アクティビティで、Element: 誤った ShowWindow の前に HideWindow をチェックする問題を修正しました。
 * すべてのプロパティに有効な値を入力すると、**スクリーンショットの取得** アクティビティが機能しない問題を修正しました。

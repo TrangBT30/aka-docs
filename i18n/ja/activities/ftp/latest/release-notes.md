@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.FTP バージョン 2.1.0.3**
+## v2.1.0.3
 
-### **バグ修正**
+**バグ修正**
 
 * [修正] [UploadFiles] ISS と Wing の両方で、名前にドット (.) が含まれるフォルダーにファイル/フォルダーをアップロードできない
 * [修正] [UploadFiles] 日本語のフォルダー名をアップロードするときに「MKD に失敗しました...」というメッセージが表示される

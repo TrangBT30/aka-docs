@@ -8,11 +8,11 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-**RCA.Activities.Gsuite Version 2.2.1.0**
+## v2.2.1.0
 
 This release brings more new activities:
 
-### **1.  Sheets sub-package**
+**1.  Sheets sub-package**
 
 * Add Delete Column: Adds blank columns or removes existing columns from a specified sheet.
 * Add Delete Rows: Adds empty rows or removes existing rows from a specified sheet.
@@ -35,6 +35,6 @@ This release brings more new activities:
 * Write Cell: Enters a text or a formula in a cell. The activity can be used with an Excel file selected for a parent Use Excel File activity or with the Project Notebook.
 * Write Range: Writes a DataTable variable to a specified Excel workbook cell range.
 
-### **2.  Drive sub-package**
+**2.  Drive sub-package**
 
 Create New Spreadsheet: Creates a new spreadsheet in Google Drive.

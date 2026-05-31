@@ -8,8 +8,8 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Python Version 2.1.0.3**
+## v2.1.0.3
 
-### **Bugs Fixed**
+**Bugs Fixed**
 
 * [PythonScope] Property Working Folder not working.

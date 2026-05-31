@@ -23,7 +23,7 @@ Build date: May 25, 2026
 * Update: change logger.tag() to logger.log() to let Common package compatible with lower version of NativeHost/Platform.
 * Update: log trace level
 
-## v3.3.0.0
+## v3.3.0
 - Added: Kill Process activity
 - Update: MSAA element to check overlap when checking visible
 - Update: UIA, SAP element find table element by row /colum
@@ -33,7 +33,7 @@ Build date: May 25, 2026
 - Fixed: Show Window not retaining Window Size and position.
 - Fixed: Timeout not working for OpenApplication, AttachWindow, CloseWindow.
 
-## v3.2.0.0
+## v3.2.0
 
 - Added: support create and choose variable in Selection Options dialog
 - Fixed: Attach Browser delay in getting Edge Selector

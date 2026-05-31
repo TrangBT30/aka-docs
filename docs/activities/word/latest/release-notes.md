@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Word Version 2.2.1.0**
+## v2.2.1.0
 
-### **Bugs Fixed**
+**Bugs Fixed**
 
 * [SetContentControl] Value is String but contain incorrect chars incorrect.
 * [SetContentControl]: Value and TypeArgument have a different Type with word Control: incorrect.

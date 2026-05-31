@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.Salesforce バージョン 2.1.0.1**
+## v2.1.0.1
 
-### **追加された機能**
+**追加された機能**
 
 * 複合リクエスト
 * レコードの挿入

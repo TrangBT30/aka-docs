@@ -8,7 +8,7 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Core v2.2.0.1**
+## v2.2.0.1
 
 **Bugs fixed**
 
@@ -21,7 +21,7 @@ displayed_sidebar: activitiesSidebar
 
 * Added the modified date property to the condition filter of RCA.Activities.Core.GetFiles
 
-## **RCA.Activities.Core v2.3.0**
+## v2.3.0
 
 **Features added**
 

@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # リリースノート
 
-## **RCA.Activities.NativeBrowser バージョン 4.1.0.1**
+## v4.1.0.1
 
-### **バグ修正**
+**バグ修正**
 
 * [修正] [ExtractStructuredData] DelayBefore なしで BrowserNotSetException をスローする
 * [修正] [ExtractStructuredData] ブラウザが開いているかどうかを確認していないため、抽出ウィザードの「列の追加」時に拡張機能が接続されない

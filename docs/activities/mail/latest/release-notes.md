@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Mail Version 2.1.1.0**
+## v2.1.1.0
 
-### **Bug Fixes**
+**Bug Fixes**
 
 * Fixed an issue in **Get Outlook Mail Messages** activity which return mail messages when sub-folder in Mail folder path is not exist.
 * Fixed an issue in **Get Exchange Mail Messages** activity which unable to get mail with send on behalf.

@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Windows Version 2.1.2.1**
+## v2.1.2.1
 
-### **Bug Fixes**
+**Bug Fixes**
 
 * Fixed an issue in **Show Window** activity which check HideWindow before ShowWindow with Element: incorrect.
 * Fixed an issue in **Take Screenshot** activity doesn't work when fill valid value for all properties.

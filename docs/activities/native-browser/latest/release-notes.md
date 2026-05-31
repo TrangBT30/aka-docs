@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.NativeBrowser Version 4.1.0.1**
+## v4.1.0.1
 
-### **Bugs fixed**
+**Bugs fixed**
 
 * [Fixed] [ExtractStructuredData] Throw BrowserNotSetException without DelayBefore
 * [Fixed] [ExtractStructuredData] Haven't checked if the browser is open, the extension is not connected when "Add Column" at Extract Wizard

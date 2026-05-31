@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Excel Version 2.1.1.0**
+## v2.1.1.0
 
-### **Bugs fixed**
+**Bugs fixed**
 
 * [ExcelApplicationScope] Edit message when excel file is set password protected sheet.
 * [ExportChart]Export chart missing when name file excel has chart name same.

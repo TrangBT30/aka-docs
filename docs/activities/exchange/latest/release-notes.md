@@ -8,9 +8,9 @@ displayed_sidebar: activitiesSidebar
 ---
 # Release Notes
 
-## **RCA.Activities.Mail Version 2.1.1.0**
+## v2.1.1.0
 
-### **Bugs fixed**
+**Bugs fixed**
 
 * [Fixed] [GetExchangeMailMessgaes] Not show error when not inputting field "Password"and "User"
 * [Fixed] [GetExchangeMailMessages] Can't get mail with send on behaft
