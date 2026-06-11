@@ -1,10 +1,9 @@
 {
-  "label": "Storage",
-  "position": 5,
+  "label": "Buckets",
+  "position": 1,
   "collapsible": true,
   "collapsed": true,
   "link": {
     "type": "generated-index"
   }
 }
-
