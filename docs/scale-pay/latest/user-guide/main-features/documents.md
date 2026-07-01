@@ -23,10 +23,9 @@ Scale Pay processes documents in this sequence:
 
 You must upload PO and GR and wait until their status becomes **Ready** before uploading the corresponding invoice.
 
-## Open the Import Documents tab
+## Import documents
 
-1. In the left sidebar, open **User Guide → Main features → Import Documents**.
-2. You will see three tabs:
+1. In the nav-bar, you will see three tabs:
    - **Purchase Order**
    - **Good Receipt**
    - **Invoice**
@@ -40,6 +39,8 @@ You must upload PO and GR and wait until their status becomes **Ready** before u
 
 After upload, Scale Pay automatically runs AI extraction on each file.
 
+![Document upload](/static/img/sp_uploadpo.png)
+
 ## Step 2: Upload Good Receipt
 
 1. Select the **Good Receipt** tab.
@@ -48,22 +49,28 @@ After upload, Scale Pay automatically runs AI extraction on each file.
 
 Only when PO and GR are **Ready** can you proceed to upload invoices for matching.
 
+![Document upload](/static/img/sp_uploadgr.png)
+
 ## Step 3: Upload Invoice
 
 1. Select the **Invoice** tab.
 2. Upload your invoice files.
 3. Scale Pay will automatically extract data and attempt to match against the corresponding PO and GR.
 
+![Document upload](/static/img/sp_uploadinv.png)
+
 ## Step 4: Review extracted data
 
 After extraction completes, click the **file ID** to open the detail view.
+
+![Document detail](/static/img/sp_details.png)
 
 The detail view shows two panels:
 
 - **Left panel**: the original uploaded document.
 - **Right panel**: the information extracted by AI.
 
-![Document detail](/static/img/document_detail.png)
+![Document detail](/static/img/sp_detail.png)
 
 ## Document statuses
 
@@ -88,18 +95,18 @@ For the following statuses, you can manually edit the extracted results:
 
 To edit:
 
-1. Find the document row in the list.
+1. Trigger view detailed document by clicking the file ID.
 2. Click the **pencil (edit)** icon.
 3. Update the extracted fields in the right panel.
 4. Save the changes.
 
-![Edit extracted data](/static/img/edit_extracted.png)
+![Edit extracted data](/static/img/sp_edit_inv.png)
 
 ## What to do next
 
 After all documents are uploaded and status is **Ready**, Scale Pay will automatically map and match them.
 
-Go to [Manage matching sets](../auto-mapping-matching.md) to review matched results, resolve exceptions, and export data.
+Go to [Manage matching sets](./auto-mapping-matching.md) to review matched results, resolve exceptions, and export data.
 
 ## Common issues and quick fixes
 
