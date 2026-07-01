@@ -4,7 +4,7 @@ title: Roles & Permissions
 sidebar_label: Roles & Permissions
 sidebar_position: 4
 description: Beginner-friendly guide to roles, permissions, and safe access control in ScalePay.
-displayed_sidebar: ScalePaySidebar
+displayed_sidebar: scalePaySidebar
 ---
 
 # Roles & Permissions

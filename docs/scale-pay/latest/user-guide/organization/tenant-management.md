@@ -4,7 +4,7 @@ title: Tenant Management
 sidebar_label: Tenant Management
 sidebar_position: 5
 description: Beginner-friendly guide to understand and update your ScalePay workspace information.
-displayed_sidebar: scaleFlowSidebar
+displayed_sidebar: scalePaySidebar
 ---
 
 # Tenant Management

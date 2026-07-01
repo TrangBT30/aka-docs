@@ -4,7 +4,7 @@ title: Profile Usage
 sidebar_label: Profile Usage
 sidebar_position: 1
 description: Beginner-friendly guide to view and update your personal ScalePay profile.
-displayed_sidebar: scalePay Sidebar
+displayed_sidebar: scalePaySidebar
 ---
 
 # Profile Usage
