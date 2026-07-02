@@ -1,5 +1,5 @@
 ---
-id: auto-mapping-matching
+id: manage-matching-sets
 title: Manage Matching Sets
 sidebar_label: Manage Matching Sets
 sidebar_position: 3

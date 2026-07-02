@@ -106,7 +106,7 @@ To edit:
 
 After all documents are uploaded and status is **Ready**, Scale Pay will automatically map and match them.
 
-Go to [Manage matching sets](./auto-mapping-matching.md) to review matched results, resolve exceptions, and export data.
+Go to [Manage matching sets](./manage-matching-sets.md) to review matched results, resolve exceptions, and export data.
 
 ## Common issues and quick fixes
 

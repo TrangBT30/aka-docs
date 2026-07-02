@@ -129,4 +129,4 @@ Once a pipeline is active, you can still:
 
 If you are setting up Scale Pay for the first time, go to [Import documents](./documents.md) next to learn how to add your invoices, purchase orders, and payment files.
 
-If you want to review and manage matched results, go to [Manage matching sets](./auto-mapping-matching.md).
+If you want to review and manage matched results, go to [Manage matching sets](./manage-matching-sets.md).
