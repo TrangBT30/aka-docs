@@ -14,15 +14,25 @@ displayed_sidebar: studioSidebar
 > **注:** ダウンロード パスワードを取得するには、[サポート チーム](mailto:support@akabot.com) にお問い合わせください。
 
 | バージョン   | ビルド日           | ダウンロード                                                                 |
-| ----------- | ----------------- | ---------------------------------------------------------------------------- |
+| ----------- | ----------------- | ----------------------------------------------------------------------------|
+| v3.2.7.0    | 2026 年 10 月 26 日 | [ダウンロード](https://ws3.akabot.com/s/CfwvWv7lnbt8yA2)                    |
+| v3.2.6.0    | 2026 年 10 月 18 日 | [ダウンロード](https://ws3.akabot.com/s/kg13K06pRYmMYO8)                    |
+| v3.2.5.0    | 2026 年 10 月 14 日 | [ダウンロード](https://ws3.akabot.com/s/vPmUgpcp1qW2cOh)                    |
+| v3.2.4.0    | 2026 年 9 月 21 日 | [ダウンロード](https://ws3.akabot.com/s/yNTrzZuMR12sFVk)                     |
+| v3.2.3.1    | 2026 年 9 月 15 日  | [ダウンロード](https://ws3.akabot.com/s/TxHofDNGWxhzj3v)                    |
+| v3.2.3.0    | 2026 年 9 月 05 日  | [ダウンロード](https://ws3.akabot.com/s/UBXln21CuJzCcyB)                    |
+| v3.2.2.0    | 2026 年 8 月 20 日  | [ダウンロード](https://ws3.akabot.com/s/MCaSXdmASdgS5DB)                    |
+| v3.2.1.0    | 2026 年 8 月 06 日  | [ダウンロード](https://ws3.akabot.com/s/fTw4exfg6CyWKkv)                    |
+| v3.2.0.0    | 2026 年 7 月 31 日  | [ダウンロード](https://ws3.akabot.com/s/p2nAmp2hAK8uOPL)                    |
+| v2.2.0.14   | 2026 年 7 月 16 日  | [ダウンロード](https://ws3.akabot.com/s/viRRORLdKdnugwm)                    |
 | v2.2.0.13   | 2026 年 6 月 17 日  | [ダウンロード](https://ws3.akabot.com/s/XtLAL29x3vAt4Gu)                    |
 | v2.2.0.12   | 2026 年 5 月 25 日 | [ダウンロード](https://ws3.akabot.com/s/JA95evQz7ZOvT4l)                     |
 | v2.2.0.11   | 2026 年 4 月 29 日 | [ダウンロード](https://ws3.akabot.com/s/8z0ZSMFVjhzfrNw)                     |
 | v2.2.0.10   | 2026 年 4 月 21 日 | [ダウンロード](https://ws3.akabot.com/s/btdj2o558GaCHYn)                     |
 | v2.2.0.9    | 2025 年 12 月 24 日 | [ダウンロード](https://ws3.akabot.com/s/2K9pSUmWtOL5KTF)                    |
 | v2.2.0.8b   | 2025 年 12 月 5 日  | [ダウンロード](https://ws3.akabot.com/s/LFHMJd6PSucZrXg)                    |
-| v2.2.0.8a   | 2025 年 11 月 28 日 | [サポート](mailto:support@akabot.com) にお問い合わせください                |
-| v2.2.0.8    | 2025 年 11 月 20 日 | [サポート](mailto:support@akabot.com) にお問い合わせください                |
+| v2.2.0.8a   | 2025 年 11 月 28 日 | サポートにお問い合わせください                                               |
+| v2.2.0.8    | 2025 年 11 月 20 日 | サポートにお問い合わせください                                               |
 | v2.2.0.7c   | 2025 年 9 月 23 日  | [ダウンロード](https://ws3.fpt-software.vn/s/xXJDQEPDOkW6z7b)               |
 | v2.2.0.5    | 2025 年 3 月 4 日   | [ダウンロード](https://ws3.fpt-software.vn/s/uL0TxWeaENDwvLY)               |
 | v2.2.0.3    | 2024 年 6 月 14 日  | [ダウンロード](https://ws3.fpt-software.vn/s/Hh2iaUsEvG13wMZ)               |

@@ -18,6 +18,8 @@ This activity allows to open an Excel workbook and provides a scope for Excel Ac
 
 (\* for mandatory)
 
+**Note - System Requirements:** Microsoft Excel must be installed on the machine running akaBot Studio or Agent. If you only need to read or write `.xlsx` files on an Agent machine without Office installed, use the **ClosedXML** or **CSV** activities instead.
+
 ## **In the body of the activity**
 
 * **Workbook Path (String)** - The path of the Excel file you want to read.  
@@ -54,7 +56,8 @@ This activity allows to open an Excel workbook and provides a scope for Excel Ac
 
 **Output**
 
-* **Workbook (WorkbookApplication)**- The entire information from the Excel spreadsheet stored in a WorkbookApplication variable. This variable can be used in another Excel Application Scope activity. Only WorkbookApplication variables are supported.
+* **Workbook (WorkbookApplication)**- The entire information from the Excel spreadsheet stored in a WorkbookApplication variable. This variable can be used in another Excel Application Scope activity. Only WorkbookApplication variables are supported.  
+  **Note:** To keep Excel open after the scope, assign this output to a variable; otherwise it is closed when the scope ends.
 
 **Use Existing Workbook**
 

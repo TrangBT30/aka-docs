@@ -1,0 +1,10 @@
+{
+  "label": "Installation",
+  "position": 4,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Review the requirements, then install akaBot AI Hub on Linux or Windows from an offline Docker package."
+  }
+}

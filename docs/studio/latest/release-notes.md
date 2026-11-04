@@ -9,6 +9,235 @@ displayed_sidebar: studioSidebar
 
 # Akabot Studio — Release Notes
 
+## v3.2.7.0
+
+**Studio**
+
+- Fixed: duplicate namespace imports created when a variable is added with the **Ctrl+K** shortcut.
+- Fixed: workflows invoked from compiled libraries can receive required input arguments without being rejected by the direct-activity validation.
+- Added: digital signing certificate to `.exe`, `.dll` and the installer files.
+- Added: package `RCA.Activities.Excel.3.4.0.3` to ship with the installer.
+
+## v3.2.6.0
+
+**Debugger** — see [How to Use the Debugger](./user-guide/how-to-use-debugger.md)
+
+- Added: step highlight coloured by phase — amber before an activity runs, green after it finishes (stepping only), red when it faults, darker amber on a breakpoint hit.
+- Added: execution trail — finished activities are marked, a faulted activity shows a red ✕; a new loop iteration clears the trail of the previous one.
+- Added: the debugger expands collapsed containers and opens Flowchart, State Machine and State Entry/Exit bodies so the paused activity is always on screen.
+- Update: larger breakpoint glyph, with an arrow on the breakpoint that is currently hit.
+- Update: **Step Into** stops at a container's first child; **Step Over** runs the whole activity and stops at its end (or fault).
+- Update: the debugger always stops where an activity faults, handled or not, and **Locals** shows the exception there.
+- Update: **Slow Step** switches to manual stepping on a breakpoint hit or a Step Into/Over; **Continue** resumes slow stepping.
+- Fixed: breakpoints and steps being skipped on the second and later iterations of a loop, and in parallel branches.
+- Fixed: a breakpoint firing a second time when its activity finished.
+- Fixed: Studio freezing while debugging State Machine workflows; **Stop** stays responsive in endless internal loops.
+- Fixed: workflow arguments missing from **Locals** and **Watches**.
+- Fixed: the invoked workflow being aborted when debugging a workflow compiled into a library; such workflows are now skipped by the debugger.
+- Fixed: **Continue** being disabled at a fault stop until the designer was clicked.
+
+**Universal Search**
+
+- Update: searches all files in the project, opened or not.
+- Added: filters `type:`, `file:`, `var:` and `arg:`, which can be combined with each other and with search text, and a **?** icon that shows the syntax on hover.
+
+**Browser extension**
+
+- Added: **Policy (Offline)** install mode for Chrome and Edge in **Options > Extension** — the extension package is staged on the machine and installed by policy without access to the browser store. Works only on machines joined to a domain or enrolled in MDM.
+- Added: **Refresh** link in **Options > Extension**.
+- Fixed: detection of the installed extension in **Options > Extension**.
+- Update: policy checks use `DeveloperToolsAvailabilityAllowlist` / `DeveloperToolsAvailabilityBlocklist` instead of `DeveloperToolsAvailability`.
+
+**Studio**
+
+- Improved: faster project opening — workflows are loaded when they are needed.
+
+**Installer**
+
+- Added: `/EXTMODE` command-line parameter to choose how the browser extension is installed during unattended setup.
+- Added: `RCA.Activities.Excel.3.4.0.2` and `RCA.Activities.Common.4.8.0.1` to the packages shipped with the installer.
+
+## v3.2.5.0
+
+**New features**
+
+- [Project settings](./user-guide/project-settings.md) — edit the project name and description from the Project panel.
+
+**Event Trigger**
+
+- Added: **Desktop Trigger** button on the Studio **Home** tab to open the Event Trigger Manager.
+- Added: browse for the executable in **Process** and **Window** triggers.
+- Added: **Service** trigger lists the Windows services on the machine.
+- Update: **Process** trigger checks that exactly one of **File Path** or **Process Name** is set; **Service** trigger accepts `*` and `?` wildcards in the service name.
+- Added: **Email** trigger credentials stored in Windows Credential Manager (**Add** / **Remove**), and a check interval in seconds (30–86,400) or minutes (1–1,440).
+- Added: the trigger action's argument dialog shows the variables that can be passed; add arguments with **New**, and update or delete them from the **⋯** button.
+- Update: the trigger server is started and stopped by BotService according to the enabled triggers, and keeps running when the Event Trigger Manager is closed. The tray icon lists the active triggers.
+
+**Library build** — see [Build Workflow to Library Package](./user-guide/build-workflow-to-library.md)
+
+- Added: **Build Library** remembers its settings per project and applies them to the package.
+- Added: set the **Library name** and see the resulting **Full library name** (package ID) as you type.
+- Added: choose an **Icon** for the library's activities in the toolbox.
+- Update: required arguments of the library workflows are marked as required on the generated activities.
+
+**Studio**
+
+- Improved: project name validation when creating a blank project; the error lists the invalid characters.
+- Fixed: `PSObject` imports for variables created with shortcuts.
+
+**Agent**
+
+- Improved: workflow parameters show a loading state while they are read.
+- Improved: long project names wrap instead of being cut off.
+- Added: a clear error when BotService cannot start because the saved machine name does not match this computer.
+
+**Browser extension**
+
+- Update: Commander no longer writes duplicate registry keys.
+
+**Installer**
+
+- Added: `RCA.Activities.Common.4.9.0.1` to the packages shipped with the installer.
+
+## v3.2.4.0
+
+**Studio**
+
+- Fixed: compiled libraries using the Invoke Workflow File activity.
+- Fixed: debugger startup logging for required arguments.
+- Added: Core 3.6.0 as the default package when creating a new project.
+
+## v3.2.3.1
+
+- Fixed: license not found error by including username in requests for Windows 10/11.
+
+## v3.2.3.0
+
+**License Module**
+
+- Added: per-user Studio and Agent license file on Windows 10/11.
+- Update: Changed all license file operations to UTF-8.
+- Update: License and settings writes are now flushed to physical storage to reduce corruption risk.
+- Fixed: Invalid or placeholder settings keys now fall back to a valid key from the `.lic` file.
+- Fixed: License settings are saved only after activation succeeds.
+- Fixed: The licensing wizard remains usable after detecting corrupted settings, allowing users to enter new information and replace the file.
+
+## v3.2.2.0
+
+**Studio**
+
+- Added support for the new Return activity in the workflow runner, debugger, visual tracking and breakpoint handling, so a workflow file can end early and still surface its output arguments.
+- Fixed the Package Manager showing details for the wrong package version: the details panel now follows the version drop-down, version comparison is normalized, and the release date falls back to the on-disk copy for feeds without publish metadata (local folders, unlisted versions).
+- Fixed C# expression editor completions for generic types; variable scopes are now typed with real CLR types, generic type names are rendered correctly, and identifiers are escaped.
+- Fixed silent failures when starting a workflow run: the error is now written to the output pane and log file with message and stack trace, and the job is completed with the failure instead of being swallowed.
+
+**Agent**
+
+- Update the Agent to a redesigned UI, including input-argument configuration, Task History, and a job Detail tab.
+- Added the argument type to the argument configuration view.
+- Added validation when a string value is assigned to an integer argument, and a 4000-character limit for string values in the configuration tab.
+- Added checks for `IsRequired` and default values when configuring arguments.
+
+**Executor**
+
+- Added a dedicated `ERROR_MISSING_REQUIRED_ARGUMENT` return code: an agent-triggered run now fails fast when a required input argument has neither a supplied value nor a default, instead of starting the workflow.
+- Added Return activity support to the console executor.
+
+**Installer**
+
+- Added `RCA.Activities.Core.3.5.0`, `RCA.Activities.Excel.3.3.0` and `RCA.Activities.Common.4.8.0` to the packages shipped with the installer.
+
+## v3.2.1.0
+
+- Added: package `Core 3.4.1` to installer.
+- Added: browser extension v3.0.5 CRX files for browser (Chrome, Edge).
+- Update: changed default Core version to 3.4.1 when create new project.
+- Fixed: Install browser (Chrome, Edge) extension in policy mode.
+- Fixed: duplicate references error when using Studio to compile workflow to a shared library.
+- Fixed: missing appender for log4net in Native Host.
+
+## v3.2.0.0
+
+**1. Studio Highlights**
+
+| Feature | Description |
+|---|---|
+| **Security:** | Fixed vulnerability across the entire platform. |
+| **C# expression language** | Projects can now use C# expressions in addition to VB, with a Roslyn-powered editor, IntelliSense, and auto-`using` resolution. |
+| **Enhanced Debugger** | Breakpoints, Watches panel, local-value editing, step execution, and an execution-trail marker. |
+| **AkaNinja pane** | In-Studio AI assistant for asking questions and generating expression code, with slash (`/`) and `@` context commands, now powered by **AI Hub**. |
+| **Recorder for Web/Window app** | New recorder for capturing UI interactions directly into a workflow. |
+| **Workflow Analyzer** | Static analysis of workflows against configurable rules, available in Studio, as a CLI, and via a client. |
+| **`project.v1.json` format** | New project descriptor with guided migration from the legacy `project.json`. |
+
+**C# Expression Support & Roslyn Editor**
+- Added **C# as a project expression language** alongside VB, selectable via radio buttons in the new-project wizard.
+- Added a **code IntelliSense workspace** and **auto-detection / insertion of `using` namespaces** for unknown data types.
+
+**VB Expression Editor**
+- Overload grouping, quote pairing, and literal-aware suggestions.
+- Member suggestions on literal/compound receivers with improved quote and selection handling.
+- Stopped space from committing a suggestion.
+
+**Enhanced Debugger**
+- **Breakpoints** that persist across project open/close, with a dedicated Breakpoints panel and identity-based breakpoint tracking.
+- **Watches panel** with expandable value models, local-value edit dialog, and Watch expressions evaluated by the real VB/C# compiler.
+- **Execution-trail marker** aligned to the title bar; stepping-highlight and step-over pause-position fixes.
+- Debugger restricted to **VB projects only**; debug buttons are disabled on C# projects with an explanatory tooltip.
+
+**AkaNinja Assistant**
+- New **AkaNinja pane** for chat-style assistance and **AI-generated expression code**.
+- **Slash commands** (`/workflow`, `/log`) and **`@` context commands** to pull context from a specific XAML file and its scope, with helper text and prompt guidance.
+- C# language support for AkaNinja and generated expressions.
+
+**Project Format & Migration**
+- Support for **`project.v1.json`** alongside legacy `project.json`, including opening projects via either file.
+- **Confirm-before-migrate** dialog when upgrading a legacy `project.json`, with silent-by-default option controls and a themed, resourced, fixed-size dialog.
+- Upgrade package `Dirkster.MRULib` to 1.30 to fix a license-unknown issue.
+
+**UI/UX**
+- Recent-project and status-bar **VB/C# language badges**.
+- Selector-dialog detection optimized to reduce load time.
+- Help menu points to the new akaBot docs; documentation links are language-specific.
+
+**Workflow Analyzer**
+
+- **Workflow Analyzer feature** with a configurable rule set; analysis scope changed from global to **per-project**.
+- **Navigate to the offending activity/workflow** by double-clicking an analysis result.
+
+**Recorder**
+
+- Web/app recording engine with **counter actions** and **"navigate to"** support.
+- Root-selector trimming and dependency-project handling in exported results.
+- Fixes: navigation mapper, image-search step compatibility, and Unicode variable names returned by *Get Text*.
+- Recorder version aligned to Common ≥ 4.7.0.
+
+**2. akaBot Agent**
+
+- **Agent**: tray-menu "About" update; fixes for missing language designer code.
+- **Bot Executor**: prefers `project.v1.json`, falling back to legacy `project.json`.
+- Target frameworks standardized to **net472**.
+- **Auto Logon module**: Improved discovery of the **LogonUI** candidate windows.
+
+**3. Event Trigger Manager**
+
+- Language-aware combobox that updates when the UI language changes.
+- Removed unused resources and enhanced the UI with icons; added event-trigger translations.
+
+**4. Licensing and Named-pipe**
+
+- Obtain machine UUID via **PowerShell** when WMIC is disabled/deprecated, with a fix for `IsWmicAvailable` when WMIC returns an invalid format.
+- Replaced hard-coded `C:\WINDOWS` with `%SystemRoot%` for non-C: Windows installs.
+- Improved named-pipe connection-pool management for stability.
+
+**5. Setup Installer**
+
+- **Support multi-languages:** English, Japanese, Chinese
+- **Removed packages:** Common.1.0.0, Common.2.0.0.5, Common.2.0.0.6, FormBuilder.2.1.1.1, OCR.2.1.0.1, OCR.2.1.0, PDF.2.1.0, PDF.2.1.1, PDF.2.1.2
+
+- **Added packages:** Aka.RPA.Extras.Taxonomy.3.2.0.1, ActiveDirectory.3.2.0, AIServices.1.1.0, AIServices.3.2.0, AppConnect.Salesforce.1.0.0.1, AppConnect.Salesforce.3.2.0, Box.1.0.0.1, Box.3.2.0, Browser.2.3.0.1, Browser.3.2.0.5, Browser.3.3.0, Catia.3.2.0, Common.2.0.0.9, Common.3.0.1.1, Common.3.0.1, Common.3.1.0.1, Common.4.2.0, Common.4.6.0.1, Common.4.7.0, ComputerVision.1.1.0.5, ComputerVision.3.2.0, Core.3.0.0.1, Core.3.0.0.2, Core.3.3.0, Core.3.4.0, DataService.1.0.1.1, DataService.1.0.1, DataService.3.2.0, Excel.3.2.0, FormBuilder.3.3.0, FTP.3.2.0, GoogleCloud.1.0.0.2, GoogleCloud.3.2.0, GSuite.2.2.1.1, GSuite.3.2.1, GSuite.3.3.0, IDP.1.0.0.1, IDP.3.2.0, IE.3.2.0, Java.2.3.0.1, Java.2.3.0.4, Java.3.4.0, Mail.3.2.0, NativeBrowser.5.0.0.5, NativeBrowser.6.0.0.4, NativeBrowser.6.2.0, OCR.2.1.0.2, OCR.3.2.0, Office365.1.0.1.1, Office365.3.2.0, PCOMM.3.2.0, PDF.2.1.2.1, PDF.3.2.0, Python.3.2.0, Salesforce.1.0.0.1, Salesforce.3.2.0, Windows.3.2.0, Word.3.2.1, Word.3.3.0
+
+---
 ## v3.0.0.0
 
 > NOTE: THIS IS BETA VERSION. PLEASE USE AT YOUR OWN RISK!
@@ -56,6 +285,11 @@ displayed_sidebar: studioSidebar
 * PCOMM 3.1.0.0
 * Python 3.1.0.5
 * Word 3.2.1.0
+
+---
+## v2.2.0.14
+
+* Update: licensing module to get UUID by PowerShell (in case MWIC disabled or deprecated)
 
 ---
 ## v2.2.0.13

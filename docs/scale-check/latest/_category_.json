@@ -1,0 +1,10 @@
+{
+  "label": "AkaCheck",
+  "position": 1,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "description": "AkaCheck User Guide for setup, services, and integrations."
+  }
+}

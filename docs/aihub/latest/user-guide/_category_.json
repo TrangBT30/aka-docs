@@ -1,0 +1,10 @@
+{
+  "label": "User Guide",
+  "position": 5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to sign in, chat with Channels, manage knowledge bases, build and publish Channels, and administer AI Hub."
+  }
+}
